@@ -138,6 +138,23 @@ export default function Home() {
           )}
         </section>
       </section>
+      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+  <a
+    href="https://zalo.me/0822498668"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-full bg-blue-500 px-5 py-3 text-white font-bold shadow-lg hover:bg-blue-600"
+  >
+    Nhắn Zalo
+  </a>
+
+  <a
+    href="tel:0822498668"
+    className="rounded-full bg-yellow-400 px-5 py-3 text-black font-bold shadow-lg hover:bg-yellow-300"
+  >
+    Gọi ngay
+  </a>
+</div>
     </main>
   );
 }
