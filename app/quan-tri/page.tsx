@@ -13,9 +13,14 @@ type DangKy = {
   ghi_chu: string | null;
 };
 
+const MAT_KHAU_QUAN_TRI = "matma2026";
+
 export default function QuanTriPage() {
   const [duLieu, setDuLieu] = useState<DangKy[]>([]);
   const [dangTai, setDangTai] = useState(true);
+  const [daDangNhap, setDaDangNhap] = useState(false);
+  const [matKhau, setMatKhau] = useState("");
+  const [loiMatKhau, setLoiMatKhau] = useState("");
 
   async function layDuLieu() {
     setDangTai(true);
@@ -35,9 +40,76 @@ export default function QuanTriPage() {
     setDangTai(false);
   }
 
+  function kiemTraMatKhau() {
+    if (matKhau === MAT_KHAU_QUAN_TRI) {
+      setDaDangNhap(true);
+      setLoiMatKhau("");
+      layDuLieu();
+    } else {
+      setLoiMatKhau("Mật khẩu chưa đúng. Cô kiểm tra lại nhé.");
+    }
+  }
+
   useEffect(() => {
-    layDuLieu();
+    const daMoKhoa = localStorage.getItem("quan_tri_da_mo_khoa");
+
+    if (daMoKhoa === "true") {
+      setDaDangNhap(true);
+      layDuLieu();
+    } else {
+      setDangTai(false);
+    }
   }, []);
+
+  useEffect(() => {
+    if (daDangNhap) {
+      localStorage.setItem("quan_tri_da_mo_khoa", "true");
+    }
+  }, [daDangNhap]);
+
+  if (!daDangNhap) {
+    return (
+      <main className="min-h-screen bg-slate-950 text-white flex items-center justify-center p-8">
+        <div className="w-full max-w-md bg-slate-900 border border-slate-700 rounded-2xl p-8">
+          <p className="text-yellow-400 font-semibold">
+            Học viện Mật Mã Thịnh Vượng
+          </p>
+
+          <h1 className="text-3xl font-bold mt-3">
+            Đăng nhập trang quản trị
+          </h1>
+
+          <p className="text-slate-300 mt-3">
+            Nhập mật khẩu để xem danh sách học viên đăng ký.
+          </p>
+
+          <input
+            type="password"
+            value={matKhau}
+            onChange={(e) => setMatKhau(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                kiemTraMatKhau();
+              }
+            }}
+            placeholder="Nhập mật khẩu quản trị"
+            className="w-full mt-6 px-4 py-3 rounded-xl text-black"
+          />
+
+          {loiMatKhau && (
+            <p className="text-red-300 mt-3 font-semibold">{loiMatKhau}</p>
+          )}
+
+          <button
+            onClick={kiemTraMatKhau}
+            className="w-full mt-5 bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold"
+          >
+            Vào trang quản trị
+          </button>
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-screen bg-slate-950 text-white p-8">
