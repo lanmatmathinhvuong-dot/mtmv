@@ -21,6 +21,7 @@ export default function QuanTriPage() {
   const [daDangNhap, setDaDangNhap] = useState(false);
   const [matKhau, setMatKhau] = useState("");
   const [loiMatKhau, setLoiMatKhau] = useState("");
+  const [tuKhoaTimKiem, setTuKhoaTimKiem] = useState("");
 
   async function layDuLieu() {
     setDangTai(true);
@@ -41,7 +42,7 @@ export default function QuanTriPage() {
   }
 
   function kiemTraMatKhau() {
-    if (matKhau === MAT_KHAU_QUAN_TRI) {
+    if (matKhau.trim() === MAT_KHAU_QUAN_TRI) {
       setDaDangNhap(true);
       setLoiMatKhau("");
       layDuLieu();
@@ -66,8 +67,19 @@ export default function QuanTriPage() {
       localStorage.setItem("quan_tri_da_mo_khoa", "true");
     }
   }, [daDangNhap]);
+  const duLieuDaLoc = duLieu.filter((dong) => {
+  const tuKhoa = tuKhoaTimKiem.toLowerCase();
 
-  if (!daDangNhap) {
+  return (
+    dong.ho_ten?.toLowerCase().includes(tuKhoa) ||
+    dong.so_dien_thoai?.toLowerCase().includes(tuKhoa) ||
+    dong.mong_muon?.toLowerCase().includes(tuKhoa) ||
+    dong.trang_thai?.toLowerCase().includes(tuKhoa) ||
+    dong.ghi_chu?.toLowerCase().includes(tuKhoa)
+  );
+});
+
+  if  (!daDangNhap) {
     return (
       <main className="min-h-screen bg-slate-950 text-white flex items-center justify-center p-8">
         <div className="w-full max-w-md bg-slate-900 border border-slate-700 rounded-2xl p-8">
@@ -84,17 +96,17 @@ export default function QuanTriPage() {
           </p>
 
           <input
-            type="password"
-            value={matKhau}
-            onChange={(e) => setMatKhau(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                kiemTraMatKhau();
-              }
-            }}
-            placeholder="Nhập mật khẩu quản trị"
-            className="w-full mt-6 px-4 py-3 rounded-xl text-black"
-          />
+  type="password"
+  value={matKhau}
+  onChange={(e) => setMatKhau(e.target.value)}
+  onKeyDown={(e) => {
+    if (e.key === "Enter") {
+      kiemTraMatKhau();
+    }
+  }}
+  placeholder="Nhập mật khẩu quản trị"
+  className="w-full mt-6 px-4 py-3 rounded-xl text-black"
+/>
 
           {loiMatKhau && (
             <p className="text-red-300 mt-3 font-semibold">{loiMatKhau}</p>
@@ -148,6 +160,15 @@ export default function QuanTriPage() {
 </div>
         </div>
 
+        <div className="mb-5">
+  <input
+    type="text"
+    value={tuKhoaTimKiem}
+    onChange={(e) => setTuKhoaTimKiem(e.target.value)}
+    placeholder="Tìm theo tên, số điện thoại, mong muốn, trạng thái, ghi chú..."
+   className="w-full px-4 py-3 rounded-xl bg-white text-black placeholder:text-slate-500 border border-yellow-300"
+  />
+</div>
         <div className="bg-slate-900 rounded-2xl overflow-x-auto border border-slate-700">
           <table className="w-full text-left">
             <thead className="bg-slate-800 text-yellow-300">
@@ -169,14 +190,14 @@ export default function QuanTriPage() {
                     Đang tải dữ liệu...
                   </td>
                 </tr>
-              ) : duLieu.length === 0 ? (
+              ) : duLieuDaLoc.length === 0 ? (
                 <tr>
                   <td className="p-4 text-slate-300" colSpan={7}>
                     Chưa có học viên đăng ký.
                   </td>
                 </tr>
               ) : (
-                duLieu.map((dong) => (
+                duLieuDaLoc.map((dong) => (
                   <tr key={dong.id} className="border-t border-slate-700">
                     <td className="p-4">{dong.id}</td>
                     <td className="p-4 font-semibold">{dong.ho_ten}</td>
