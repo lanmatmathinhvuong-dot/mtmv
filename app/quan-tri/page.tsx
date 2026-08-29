@@ -127,12 +127,25 @@ export default function QuanTriPage() {
             </p>
           </div>
 
-          <button
-            onClick={layDuLieu}
-            className="bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold"
-          >
-            Tải lại dữ liệu
-          </button>
+          <div className="flex gap-3">
+  <button
+    onClick={layDuLieu}
+    className="bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold"
+  >
+    Tải lại dữ liệu
+  </button>
+
+  <button
+    onClick={() => {
+      localStorage.removeItem("quan_tri_da_mo_khoa");
+      setDaDangNhap(false);
+      setMatKhau("");
+    }}
+    className="bg-red-500 text-white px-5 py-3 rounded-xl font-bold"
+  >
+    Đăng xuất
+  </button>
+</div>
         </div>
 
         <div className="bg-slate-900 rounded-2xl overflow-x-auto border border-slate-700">
