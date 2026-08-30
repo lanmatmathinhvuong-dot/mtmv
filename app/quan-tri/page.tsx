@@ -59,6 +59,24 @@ export default function QuanTriPage() {
     )
   );
 }
+async function capNhatGhiChu(id: number, ghiChuMoi: string) {
+  const { error } = await supabase
+    .from("dang_ky_hoc_thu")
+    .update({ ghi_chu: ghiChuMoi })
+    .eq("id", id);
+
+  if (error) {
+    console.error("Lỗi cập nhật ghi chú:", error);
+    alert("Không cập nhật được ghi chú: " + error.message);
+    return;
+  }
+
+  setDuLieu((duLieuCu) =>
+    duLieuCu.map((dong) =>
+      dong.id === id ? { ...dong, ghi_chu: ghiChuMoi } : dong
+    )
+  );
+}
   function kiemTraMatKhau() {
     if (matKhau.trim() === MAT_KHAU_QUAN_TRI) {
       setDaDangNhap(true);
@@ -235,8 +253,15 @@ export default function QuanTriPage() {
     <option value="không phù hợp">không phù hợp</option>
   </select>
 </td>
-                    <td className="p-4">{dong.ghi_chu || "-"}</td>
-                    <td className="p-4 text-slate-300">
+<td className="p-4">
+  <textarea
+  defaultValue={dong.ghi_chu || ""}
+  onBlur={(e) => capNhatGhiChu(dong.id, e.target.value)}
+  placeholder="Ghi chú..."
+  rows={3}
+  className="w-48 rounded-xl bg-slate-800 border border-slate-600 px-3 py-2 text-white resize-none"
+/>
+</td>                    <td className="p-4 text-slate-300">
                       {new Date(dong.created_at).toLocaleString("vi-VN")}
                     </td>
                   </tr>
