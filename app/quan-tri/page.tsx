@@ -41,6 +41,24 @@ export default function QuanTriPage() {
     setDangTai(false);
   }
 
+  async function capNhatTrangThai(id: number, trangThaiMoi: string) {
+  const { error } = await supabase
+    .from("dang_ky_hoc_thu")
+    .update({ trang_thai: trangThaiMoi })
+    .eq("id", id);
+
+ if (error) {
+  console.error("Lỗi cập nhật trạng thái:", error);
+  alert("Không cập nhật được trạng thái: " + error.message);
+  return;
+}
+
+  setDuLieu((duLieuCu) =>
+    duLieuCu.map((dong) =>
+      dong.id === id ? { ...dong, trang_thai: trangThaiMoi } : dong
+    )
+  );
+}
   function kiemTraMatKhau() {
     if (matKhau.trim() === MAT_KHAU_QUAN_TRI) {
       setDaDangNhap(true);
@@ -112,12 +130,13 @@ export default function QuanTriPage() {
             <p className="text-red-300 mt-3 font-semibold">{loiMatKhau}</p>
           )}
 
-          <button
-            onClick={kiemTraMatKhau}
-            className="w-full mt-5 bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold"
-          >
-            Vào trang quản trị
-          </button>
+ <button
+  type="button"
+  onClick={kiemTraMatKhau}
+  className="w-full mt-5 bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold hover:bg-yellow-300"
+>
+  Vào trang quản trị
+</button>
         </div>
       </main>
     );
@@ -204,10 +223,18 @@ export default function QuanTriPage() {
                     <td className="p-4">{dong.so_dien_thoai}</td>
                     <td className="p-4">{dong.mong_muon}</td>
                     <td className="p-4">
-                      <span className="bg-blue-500/20 text-blue-200 px-3 py-1 rounded-full">
-                        {dong.trang_thai || "mới"}
-                      </span>
-                    </td>
+  <select
+    value={dong.trang_thai || "mới"}
+    onChange={(e) => capNhatTrangThai(dong.id, e.target.value)}
+    className="rounded-xl bg-slate-800 border border-slate-600 px-3 py-2 text-white"
+  >
+    <option value="mới">mới</option>
+    <option value="đã liên hệ">đã liên hệ</option>
+    <option value="đã tư vấn">đã tư vấn</option>
+    <option value="đã chốt">đã chốt</option>
+    <option value="không phù hợp">không phù hợp</option>
+  </select>
+</td>
                     <td className="p-4">{dong.ghi_chu || "-"}</td>
                     <td className="p-4 text-slate-300">
                       {new Date(dong.created_at).toLocaleString("vi-VN")}
