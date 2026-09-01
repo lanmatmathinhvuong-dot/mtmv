@@ -258,6 +258,7 @@ const duLieuDaLoc = duLieu.filter((dong) => {
                 <th className="p-4">ID</th>
                 <th className="p-4">Họ tên</th>
                 <th className="p-4">Số điện thoại</th>
+                <th className="p-4">Liên hệ</th>
                 <th className="p-4">Mong muốn</th>
                 <th className="p-4">Trạng thái</th>
                 <th className="p-4">Ghi chú</th>
@@ -284,6 +285,25 @@ const duLieuDaLoc = duLieu.filter((dong) => {
                     <td className="p-4">{dong.id}</td>
                     <td className="p-4 font-semibold">{dong.ho_ten}</td>
                     <td className="p-4">{dong.so_dien_thoai}</td>
+                    <td className="p-4">
+  <div className="flex gap-2">
+    <a
+      href={`tel:${dong.so_dien_thoai}`}
+      className="rounded-lg bg-yellow-400 px-3 py-2 text-sm font-bold text-black"
+    >
+      Gọi
+    </a>
+
+    <a
+      href={`https://zalo.me/${dong.so_dien_thoai}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="rounded-lg bg-blue-500 px-3 py-2 text-sm font-bold text-white"
+    >
+      Zalo
+    </a>
+  </div>
+</td>
                     <td className="p-4">{dong.mong_muon}</td>
                     <td className="p-4">
   <select
