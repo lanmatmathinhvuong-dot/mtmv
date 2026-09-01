@@ -103,6 +103,10 @@ async function capNhatGhiChu(id: number, ghiChuMoi: string) {
       localStorage.setItem("quan_tri_da_mo_khoa", "true");
     }
   }, [daDangNhap]);
+const tongHocVien = duLieu.length;
+const soHocVienMoi = duLieu.filter((dong) => dong.trang_thai === "mới").length;
+const soDaTuVan = duLieu.filter((dong) => dong.trang_thai === "đã tư vấn").length;
+const soDaChot = duLieu.filter((dong) => dong.trang_thai === "đã chốt").length;
   const duLieuDaLoc = duLieu.filter((dong) => {
   const tuKhoa = tuKhoaTimKiem.toLowerCase();
 
@@ -163,7 +167,7 @@ async function capNhatGhiChu(id: number, ghiChuMoi: string) {
   return (
     <main className="min-h-screen bg-slate-950 text-white p-8">
       <div className="max-w-7xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
+   <div className="mb-8">
           <div>
             <p className="text-yellow-400 font-semibold">
               Học viện Mật Mã Thịnh Vượng
@@ -175,7 +179,27 @@ async function capNhatGhiChu(id: number, ghiChuMoi: string) {
               Danh sách học viên đã gửi form đăng ký từ website.
             </p>
           </div>
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+  <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
+    <p className="text-slate-400 text-sm">Tổng học viên</p>
+    <p className="text-3xl font-bold text-yellow-300">{tongHocVien}</p>
+  </div>
 
+  <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
+    <p className="text-slate-400 text-sm">Mới</p>
+    <p className="text-3xl font-bold text-white">{soHocVienMoi}</p>
+  </div>
+
+  <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
+    <p className="text-slate-400 text-sm">Đã tư vấn</p>
+    <p className="text-3xl font-bold text-white">{soDaTuVan}</p>
+  </div>
+
+  <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
+    <p className="text-slate-400 text-sm">Đã chốt</p>
+    <p className="text-3xl font-bold text-white">{soDaChot}</p>
+  </div>
+</div>
           <div className="flex gap-3">
   <button
     onClick={layDuLieu}
