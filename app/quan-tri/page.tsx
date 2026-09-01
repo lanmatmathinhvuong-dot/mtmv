@@ -103,10 +103,27 @@ async function capNhatGhiChu(id: number, ghiChuMoi: string) {
       localStorage.setItem("quan_tri_da_mo_khoa", "true");
     }
   }, [daDangNhap]);
+const layTrangThai = (trangThai?: string | null) => {
+  const giaTri = (trangThai || "mới").toLowerCase().trim();
+
+  const khongDau = giaTri
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
+  if (khongDau === "tat ca") return "tất cả";
+  if (khongDau.includes("lien he")) return "đã liên hệ";
+  if (khongDau.includes("tu van")) return "đã tư vấn";
+  if (khongDau.includes("chot")) return "đã chốt";
+  if (khongDau.includes("khong phu hop")) return "không phù hợp";
+
+  return "mới";
+};
+
 const tongHocVien = duLieu.length;
-const soHocVienMoi = duLieu.filter((dong) => dong.trang_thai === "mới").length;
-const soDaTuVan = duLieu.filter((dong) => dong.trang_thai === "đã tư vấn").length;
-const soDaChot = duLieu.filter((dong) => dong.trang_thai === "đã chốt").length;
+const soHocVienMoi = duLieu.filter((dong) => layTrangThai(dong.trang_thai) === "mới").length;
+const soDaLienHe = duLieu.filter((dong) => layTrangThai(dong.trang_thai) === "đã liên hệ").length;
+const soDaTuVan = duLieu.filter((dong) => layTrangThai(dong.trang_thai) === "đã tư vấn").length;
+const soDaChot = duLieu.filter((dong) => layTrangThai(dong.trang_thai) === "đã chốt").length;
 const duLieuDaLoc = duLieu.filter((dong) => {
   const tuKhoa = tuKhoaTimKiem.toLowerCase();
 
@@ -117,10 +134,10 @@ const duLieuDaLoc = duLieu.filter((dong) => {
     dong.trang_thai?.toLowerCase().includes(tuKhoa) ||
     dong.ghi_chu?.toLowerCase().includes(tuKhoa);
 
-  const dungTrangThai =
-    boLocTrangThai === "tất cả" || dong.trang_thai === boLocTrangThai;
+ const dungTrangThai =
+  boLocTrangThai === "tất cả" || layTrangThai(dong.trang_thai) === boLocTrangThai;
 
-  return dungTuKhoa && dungTrangThai;
+return dungTuKhoa && dungTrangThai;
 });
 
   if  (!daDangNhap) {
@@ -183,7 +200,7 @@ const duLieuDaLoc = duLieu.filter((dong) => {
               Danh sách học viên đã gửi form đăng ký từ website.
             </p>
           </div>
-<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+<div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
   <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
     <p className="text-slate-400 text-sm">Tổng học viên</p>
     <p className="text-3xl font-bold text-yellow-300">{tongHocVien}</p>
@@ -193,6 +210,10 @@ const duLieuDaLoc = duLieu.filter((dong) => {
     <p className="text-slate-400 text-sm">Mới</p>
     <p className="text-3xl font-bold text-white">{soHocVienMoi}</p>
   </div>
+  <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
+  <p className="text-slate-400 text-sm">Đã liên hệ</p>
+  <p className="text-3xl font-bold text-white">{soDaLienHe}</p>
+</div>
 
   <div className="rounded-2xl bg-slate-800 border border-slate-700 p-4">
     <p className="text-slate-400 text-sm">Đã tư vấn</p>
