@@ -22,7 +22,7 @@ export default function QuanTriPage() {
   const [matKhau, setMatKhau] = useState("");
   const [loiMatKhau, setLoiMatKhau] = useState("");
   const [tuKhoaTimKiem, setTuKhoaTimKiem] = useState("");
-
+const [boLocTrangThai, setBoLocTrangThai] = useState("tất cả");
   async function layDuLieu() {
     setDangTai(true);
 
@@ -107,16 +107,20 @@ const tongHocVien = duLieu.length;
 const soHocVienMoi = duLieu.filter((dong) => dong.trang_thai === "mới").length;
 const soDaTuVan = duLieu.filter((dong) => dong.trang_thai === "đã tư vấn").length;
 const soDaChot = duLieu.filter((dong) => dong.trang_thai === "đã chốt").length;
-  const duLieuDaLoc = duLieu.filter((dong) => {
+const duLieuDaLoc = duLieu.filter((dong) => {
   const tuKhoa = tuKhoaTimKiem.toLowerCase();
 
-  return (
+  const dungTuKhoa =
     dong.ho_ten?.toLowerCase().includes(tuKhoa) ||
     dong.so_dien_thoai?.toLowerCase().includes(tuKhoa) ||
     dong.mong_muon?.toLowerCase().includes(tuKhoa) ||
     dong.trang_thai?.toLowerCase().includes(tuKhoa) ||
-    dong.ghi_chu?.toLowerCase().includes(tuKhoa)
-  );
+    dong.ghi_chu?.toLowerCase().includes(tuKhoa);
+
+  const dungTrangThai =
+    boLocTrangThai === "tất cả" || dong.trang_thai === boLocTrangThai;
+
+  return dungTuKhoa && dungTrangThai;
 });
 
   if  (!daDangNhap) {
@@ -229,6 +233,23 @@ const soDaChot = duLieu.filter((dong) => dong.trang_thai === "đã chốt").leng
     placeholder="Tìm theo tên, số điện thoại, mong muốn, trạng thái, ghi chú..."
    className="w-full px-4 py-3 rounded-xl bg-white text-black placeholder:text-slate-500 border border-yellow-300"
   />
+</div>
+<div className="flex flex-wrap gap-3 mb-5">
+  {["tất cả", "mới", "đã liên hệ", "đã tư vấn", "đã chốt", "không phù hợp"].map(
+    (trangThai) => (
+      <button
+        key={trangThai}
+        onClick={() => setBoLocTrangThai(trangThai)}
+        className={`px-4 py-2 rounded-xl font-semibold ${
+          boLocTrangThai === trangThai
+            ? "bg-yellow-400 text-black"
+            : "bg-slate-800 text-white border border-slate-600"
+        }`}
+      >
+        {trangThai}
+      </button>
+    )
+  )}
 </div>
         <div className="bg-slate-900 rounded-2xl overflow-x-auto border border-slate-700">
           <table className="w-full text-left">
