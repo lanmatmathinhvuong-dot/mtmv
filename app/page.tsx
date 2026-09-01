@@ -71,28 +71,40 @@ export default function Home() {
           id="chuong-trinh"
           className="mt-16 grid w-full gap-6 md:grid-cols-3"
         >
-          <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
-            <h2 className="text-xl font-bold text-yellow-300">Mật Mã Tư Duy</h2>
-            <p className="mt-3 text-slate-200">
-              Nhận diện niềm tin giới hạn, thay đổi cách nhìn về bản thân, tiền
-              bạc và cơ hội.
-            </p>
-          </div>
+        <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
+  <h2 className="text-xl font-bold text-yellow-300">Mật Mã Tư Duy</h2>
+  <p className="mt-3 text-slate-200">
+    Giúp bạn nhận diện niềm tin giới hạn, phá vỡ tư duy trì hoãn và xây lại cách nhìn mới về bản thân, tiền bạc, cơ hội và AI.
+  </p>
+  <ul className="mt-4 space-y-2 text-sm text-slate-300">
+    <li>• Biết mình đang bị kẹt ở tư duy nào</li>
+    <li>• Hiểu vì sao mình học nhiều nhưng chưa bứt phá</li>
+    <li>• Xây lại tư duy chủ động, rõ mục tiêu và dám hành động</li>
+  </ul>
+</div>
 
-          <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
-            <h2 className="text-xl font-bold text-yellow-300">Mật Mã Hành Động</h2>
-            <p className="mt-3 text-slate-200">
-              Biến mục tiêu thành kế hoạch nhỏ, rõ ràng, có thể làm mỗi ngày.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
-            <h2 className="text-xl font-bold text-yellow-300">Mật Mã Thịnh Vượng</h2>
-            <p className="mt-3 text-slate-200">
-              Xây dựng sản phẩm tri thức, phát triển giá trị cá nhân và tạo thu
-              nhập bền vững.
-            </p>
-          </div>
+ <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
+  <h2 className="text-xl font-bold text-yellow-300">Mật Mã Hành Động</h2>
+  <p className="mt-3 text-slate-200">
+    Biến mục tiêu thành kế hoạch nhỏ, rõ ràng và có thể làm mỗi ngày; dùng AI để rút ngắn thời gian thực hiện.
+  </p>
+  <ul className="mt-4 space-y-2 text-sm text-slate-300">
+    <li>• Biết chia việc lớn thành từng bước nhỏ</li>
+    <li>• Tạo nội dung, kịch bản và kế hoạch bằng AI</li>
+    <li>• Hành động đều đặn thay vì chờ có động lực</li>
+  </ul>
+</div>
+<div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
+  <h2 className="text-xl font-bold text-yellow-300">Mật Mã Thịnh Vượng</h2>
+  <p className="mt-3 text-slate-200">
+    Xây dựng sản phẩm tri thức, phát triển giá trị cá nhân và tạo dòng thu nhập bền vững từ năng lực thật của bạn.
+  </p>
+  <ul className="mt-4 space-y-2 text-sm text-slate-300">
+    <li>• Biết biến kinh nghiệm cá nhân thành sản phẩm có giá trị</li>
+    <li>• Hiểu cách dùng AI để bán hàng, chăm sóc và tối ưu công việc</li>
+    <li>• Xây hệ thống thịnh vượng dựa trên tri thức, hành động và kỷ luật</li>
+  </ul>
+</div>
         </section>
 
         <section
