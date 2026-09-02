@@ -186,14 +186,14 @@ return dungTuKhoa && dungTrangThai;
   }
 
   return (
-    <main className="min-h-screen bg-slate-950 text-white p-8">
+    <main className="min-h-screen bg-slate-950 text-white p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
    <div className="mb-8">
           <div>
             <p className="text-yellow-400 font-semibold">
               Học viện Mật Mã Thịnh Vượng
             </p>
-            <h1 className="text-4xl font-bold mt-2">
+            <h1 className="text-3xl md:text-4xl font-bold mt-2">
               Trang quản trị đăng ký học thử
             </h1>
             <p className="text-slate-300 mt-2">
@@ -225,10 +225,10 @@ return dungTuKhoa && dungTrangThai;
     <p className="text-3xl font-bold text-white">{soDaChot}</p>
   </div>
 </div>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row gap-3">
   <button
     onClick={layDuLieu}
-    className="bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold"
+   className="w-full sm:w-auto bg-yellow-400 text-black px-5 py-3 rounded-xl font-bold"
   >
     Tải lại dữ liệu
   </button>
@@ -239,7 +239,7 @@ return dungTuKhoa && dungTrangThai;
       setDaDangNhap(false);
       setMatKhau("");
     }}
-    className="bg-red-500 text-white px-5 py-3 rounded-xl font-bold"
+   className="w-full sm:w-auto bg-red-500 text-white px-5 py-3 rounded-xl font-bold"
   >
     Đăng xuất
   </button>
