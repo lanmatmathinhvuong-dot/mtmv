@@ -57,7 +57,7 @@ export default function Home() {
             href="#dang-ky"
             className="rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 hover:bg-yellow-300"
           >
-            Đăng ký học thử
+            Bắt đầu hành trình hiểu mình
           </a>
           <a
             href="#chuong-trinh"
@@ -66,43 +66,76 @@ export default function Home() {
             Xem chương trình
           </a>
         </div>
-
+<div className="mt-12 rounded-3xl border border-yellow-300/30 bg-yellow-300/10 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    Hành trình ShuYi ứng dụng
+  </p>
+  <h2 className="mt-3 text-2xl font-bold text-white">
+    Mỗi người đều có một bản hướng dẫn bên trong
+  </h2>
+  <p className="mt-3 text-slate-200">
+    Học viện Mật Mã Thịnh Vượng giúp bạn đọc bản hướng dẫn ấy bằng ShuYi,
+    chuyển sự hiểu mình thành hành động thực tế và đưa năng lực thật vào một
+    cuộc sống có giá trị.
+  </p>
+  <p className="mt-4 font-semibold text-yellow-300">
+    Đọc mã để rèn. Không đọc mã để phán.
+  </p>
+  <p className="mt-3 text-sm text-slate-300">
+    Hiểu mã của mình → Rèn cách mình sống → Kiến tạo thịnh vượng
+  </p>
+</div>
         <section
           id="chuong-trinh"
           className="mt-16 grid w-full gap-6 md:grid-cols-3"
         >
-        <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
-  <h2 className="text-xl font-bold text-yellow-300">Mật Mã Tư Duy</h2>
+     <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
+  <p className="text-sm font-bold text-yellow-300">BƯỚC 1</p>
+  <h2 className="mt-2 text-xl font-bold text-yellow-300">Mật Mã Tư Duy</h2>
+  <p className="mt-1 text-sm italic text-slate-300">
+    Đọc mã để hiểu đúng mình
+  </p>
   <p className="mt-3 text-slate-200">
-    Giúp bạn nhận diện niềm tin giới hạn, phá vỡ tư duy trì hoãn và xây lại cách nhìn mới về bản thân, tiền bạc, cơ hội và AI.
+    Giúp bạn nhận diện cấu trúc tư duy, năng lực lõi và những nút thắt
+    đang ảnh hưởng đến lựa chọn của mình qua hệ quy chiếu ShuYi.
   </p>
   <ul className="mt-4 space-y-2 text-sm text-slate-300">
-    <li>• Biết mình đang bị kẹt ở tư duy nào</li>
-    <li>• Hiểu vì sao mình học nhiều nhưng chưa bứt phá</li>
-    <li>• Xây lại tư duy chủ động, rõ mục tiêu và dám hành động</li>
+    <li>• Nhận diện cách mình tư duy và phản ứng</li>
+    <li>• Thấy rõ điểm mạnh, điểm mù và niềm tin giới hạn</li>
+    <li>• Hiểu ba trục Nguyên nhân – Hành trình – Kết quả</li>
   </ul>
 </div>
 
- <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
-  <h2 className="text-xl font-bold text-yellow-300">Mật Mã Hành Động</h2>
+<div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
+  <p className="text-sm font-bold text-yellow-300">BƯỚC 2</p>
+  <h2 className="mt-2 text-xl font-bold text-yellow-300">Mật Mã Hành Động</h2>
+  <p className="mt-1 text-sm italic text-slate-300">
+    Rèn đúng chỗ để tạo thay đổi
+  </p>
   <p className="mt-3 text-slate-200">
-    Biến mục tiêu thành kế hoạch nhỏ, rõ ràng và có thể làm mỗi ngày; dùng AI để rút ngắn thời gian thực hiện.
+    Chuyển kết quả giải mã thành những hành động nhỏ, rõ ràng và phù hợp
+    với cấu trúc riêng của mỗi người.
   </p>
   <ul className="mt-4 space-y-2 text-sm text-slate-300">
-    <li>• Biết chia việc lớn thành từng bước nhỏ</li>
-    <li>• Tạo nội dung, kịch bản và kế hoạch bằng AI</li>
-    <li>• Hành động đều đặn thay vì chờ có động lực</li>
+    <li>• Chọn đúng một nút thắt cần tháo gỡ</li>
+    <li>• Xác định một năng lực cần rèn mỗi ngày</li>
+    <li>• Dùng coaching và AI để theo dõi, phản tư và điều chỉnh</li>
   </ul>
 </div>
 <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
-  <h2 className="text-xl font-bold text-yellow-300">Mật Mã Thịnh Vượng</h2>
+  <p className="text-sm font-bold text-yellow-300">BƯỚC 3</p>
+  <h2 className="mt-2 text-xl font-bold text-yellow-300">Mật Mã Thịnh Vượng</h2>
+  <p className="mt-1 text-sm italic text-slate-300">
+    Biến năng lực thật thành giá trị bền vững
+  </p>
   <p className="mt-3 text-slate-200">
-    Xây dựng sản phẩm tri thức, phát triển giá trị cá nhân và tạo dòng thu nhập bền vững từ năng lực thật của bạn.
+    Giúp bạn ứng dụng năng lực đã được nhận diện và rèn luyện vào bản thân,
+    gia đình, các mối quan hệ, sự nghiệp và tài chính.
   </p>
   <ul className="mt-4 space-y-2 text-sm text-slate-300">
-    <li>• Biết biến kinh nghiệm cá nhân thành sản phẩm có giá trị</li>
-    <li>• Hiểu cách dùng AI để bán hàng, chăm sóc và tối ưu công việc</li>
-    <li>• Xây hệ thống thịnh vượng dựa trên tri thức, hành động và kỷ luật</li>
+    <li>• Xác định giá trị mình có thể trao cho cộng đồng</li>
+    <li>• Biến kinh nghiệm thành sản phẩm, dịch vụ hoặc tài sản tri thức</li>
+    <li>• Dùng AI để hệ thống hóa, truyền thông và tối ưu công việc</li>
   </ul>
 </div>
         </section>
