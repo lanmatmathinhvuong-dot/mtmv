@@ -85,6 +85,39 @@ export default function Home() {
     Hiểu mã của mình → Rèn cách mình sống → Kiến tạo thịnh vượng
   </p>
 </div>
+<div className="mt-8 rounded-3xl border border-white/15 bg-white/5 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    ShuYi không phải xem bói
+  </p>
+  <h2 className="mt-3 text-2xl font-bold text-white">
+    Không dùng mã để phán định một con người
+  </h2>
+  <p className="mt-3 text-slate-200">
+    ShuYi trong Học viện Mật Mã Thịnh Vượng được dùng như một hệ quy chiếu
+    để quan sát cấu trúc bên trong, nhận diện điểm mạnh, điểm mù và những
+    mô thức đang lặp lại.
+  </p>
+  <div className="mt-5 grid gap-4 md:grid-cols-3">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
+      <p className="font-bold text-yellow-300">Không phán số</p>
+      <p className="mt-2 text-sm text-slate-300">
+        Không dùng một con số để kết luận tốt xấu về một con người.
+      </p>
+    </div>
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
+      <p className="font-bold text-yellow-300">Không quyết định thay bạn</p>
+      <p className="mt-2 text-sm text-slate-300">
+        Mỗi người vẫn là người chịu trách nhiệm cho lựa chọn của chính mình.
+      </p>
+    </div>
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
+      <p className="font-bold text-yellow-300">Dùng để rèn luyện</p>
+      <p className="mt-2 text-sm text-slate-300">
+        Đọc mã để hiểu mình, rèn hành vi và lựa chọn tỉnh thức hơn.
+      </p>
+    </div>
+  </div>
+</div>
         <section
           id="chuong-trinh"
           className="mt-16 grid w-full gap-6 md:grid-cols-3"
