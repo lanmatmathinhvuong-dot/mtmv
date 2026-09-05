@@ -239,7 +239,7 @@ setGhiChuDacBiet("");
           )}
         </section>
       </section>
-     <div className="fixed bottom-16 left-3 right-3 z-50 flex flex-row gap-2 sm:bottom-6 sm:left-auto sm:right-6 sm:flex-col sm:gap-3">
+     <div className="fixed bottom-6 left-3 right-3 z-50 flex flex-row gap-2 sm:bottom-6 sm:left-auto sm:right-6 sm:flex-col sm:gap-3">
   <a
     href="https://zalo.me/0822498668"
     target="_blank"
