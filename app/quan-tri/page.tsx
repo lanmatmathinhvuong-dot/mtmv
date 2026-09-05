@@ -81,7 +81,27 @@ async function capNhatGhiChu(id: number, ghiChuMoi: string) {
     )
   );
 }
-  function kiemTraMatKhau() {
+  async function xoaHocVien(id: number, hoTen: string) {
+  const dongY = window.confirm(`Cô chắc chắn muốn xóa học viên "${hoTen}" không?`);
+
+  if (!dongY) {
+    return;
+  }
+
+  const { error } = await supabase
+    .from("dang_ky_hoc_thu")
+    .delete()
+    .eq("id", id);
+
+  if (error) {
+    console.error("Lỗi xóa học viên:", error);
+    alert("Không xóa được học viên: " + error.message);
+    return;
+  }
+
+  setDuLieu((duLieuCu) => duLieuCu.filter((dong) => dong.id !== id));
+}
+function kiemTraMatKhau() {
     if (matKhau.trim() === MAT_KHAU_QUAN_TRI) {
       setDaDangNhap(true);
       setLoiMatKhau("");
@@ -337,6 +357,12 @@ return dungTuKhoa && dungTrangThai;
           >
             Zalo
           </a>
+          <button
+  onClick={() => xoaHocVien(dong.id, dong.ho_ten)}
+  className="rounded-lg bg-red-500 px-4 py-2 text-sm font-bold text-white hover:bg-red-600"
+>
+  Xóa
+</button>
         </div>
       </div>
     ))}
