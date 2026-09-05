@@ -11,6 +11,10 @@ type DangKy = {
   created_at: string;
   trang_thai: string | null;
   ghi_chu: string | null;
+  ngay_sinh: string | null;
+gio_sinh: string | null;
+nhu_cau: string | null;
+ghi_chu_dac_biet: string | null;
 };
 
 const MAT_KHAU_QUAN_TRI = "matma2026";
@@ -128,11 +132,15 @@ const duLieuDaLoc = duLieu.filter((dong) => {
   const tuKhoa = tuKhoaTimKiem.toLowerCase();
 
   const dungTuKhoa =
-    dong.ho_ten?.toLowerCase().includes(tuKhoa) ||
-    dong.so_dien_thoai?.toLowerCase().includes(tuKhoa) ||
-    dong.mong_muon?.toLowerCase().includes(tuKhoa) ||
-    dong.trang_thai?.toLowerCase().includes(tuKhoa) ||
-    dong.ghi_chu?.toLowerCase().includes(tuKhoa);
+  dong.ho_ten?.toLowerCase().includes(tuKhoa) ||
+  dong.so_dien_thoai?.toLowerCase().includes(tuKhoa) ||
+  dong.mong_muon?.toLowerCase().includes(tuKhoa) ||
+  dong.trang_thai?.toLowerCase().includes(tuKhoa) ||
+  dong.ghi_chu?.toLowerCase().includes(tuKhoa) ||
+  dong.ngay_sinh?.toLowerCase().includes(tuKhoa) ||
+  dong.gio_sinh?.toLowerCase().includes(tuKhoa) ||
+  dong.nhu_cau?.toLowerCase().includes(tuKhoa) ||
+  dong.ghi_chu_dac_biet?.toLowerCase().includes(tuKhoa);
 
  const dungTrangThai =
   boLocTrangThai === "tất cả" || layTrangThai(dong.trang_thai) === boLocTrangThai;
@@ -272,8 +280,72 @@ return dungTuKhoa && dungTrangThai;
     )
   )}
 </div>
+ {!dangTai && duLieuDaLoc.length > 0 && (
+  <div className="mb-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+    {duLieuDaLoc.map((dong) => (
+      <div
+        key={`the-${dong.id}`}
+        className="rounded-2xl border border-slate-700 bg-slate-900 p-5"
+      >
+        <div className="flex items-start justify-between gap-3">
+          <div>
+            <p className="text-lg font-bold text-white">{dong.ho_ten}</p>
+            <p className="text-sm text-slate-300">{dong.so_dien_thoai}</p>
+          </div>
+
+          <select
+            value={dong.trang_thai || "mới"}
+            onChange={(e) => capNhatTrangThai(dong.id, e.target.value)}
+            className="rounded-xl bg-slate-800 border border-slate-600 px-3 py-2 text-white"
+          >
+            <option value="mới">mới</option>
+            <option value="đã liên hệ">đã liên hệ</option>
+            <option value="đã tư vấn">đã tư vấn</option>
+            <option value="đã chốt">đã chốt</option>
+            <option value="không phù hợp">không phù hợp</option>
+          </select>
+        </div>
+
+        <div className="mt-4 grid gap-2 text-sm text-slate-200">
+          <p><b className="text-yellow-300">Mong muốn:</b> {dong.mong_muon || "-"}</p>
+          <p><b className="text-yellow-300">Ngày sinh:</b> {dong.ngay_sinh || "-"}</p>
+          <p><b className="text-yellow-300">Giờ sinh:</b> {dong.gio_sinh || "-"}</p>
+          <p><b className="text-yellow-300">Nhu cầu:</b> {dong.nhu_cau || "-"}</p>
+          <p><b className="text-yellow-300">Ghi chú đặc biệt:</b> {dong.ghi_chu_dac_biet || "-"}</p>
+        </div>
+
+        <textarea
+          defaultValue={dong.ghi_chu || ""}
+          onBlur={(e) => capNhatGhiChu(dong.id, e.target.value)}
+          placeholder="Ghi chú chăm sóc..."
+          rows={3}
+          className="mt-4 w-full rounded-xl bg-slate-800 border border-slate-600 px-3 py-2 text-white"
+        />
+
+        <div className="mt-4 flex gap-2">
+          <a
+            href={`tel:${dong.so_dien_thoai}`}
+            className="rounded-lg bg-yellow-400 px-4 py-2 text-sm font-bold text-black"
+          >
+            Gọi
+          </a>
+
+          <a
+            href={`https://zalo.me/${dong.so_dien_thoai}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg bg-blue-500 px-4 py-2 text-sm font-bold text-white"
+          >
+            Zalo
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+)}
+ 
         <div className="bg-slate-900 rounded-2xl overflow-x-auto border border-slate-700">
-          <table className="w-full text-left">
+         <table className="min-w-[2600px] w-full text-left">
             <thead className="bg-slate-800 text-yellow-300">
               <tr>
                 <th className="p-4">ID</th>
@@ -284,19 +356,23 @@ return dungTuKhoa && dungTrangThai;
                 <th className="p-4">Trạng thái</th>
                 <th className="p-4">Ghi chú</th>
                 <th className="p-4">Thời gian</th>
-              </tr>
+                  <th className="p-4">Ngày sinh</th>
+  <th className="p-4">Giờ sinh</th>
+  <th className="p-4">Nhu cầu</th>
+  <th className="p-4">Ghi chú đặc biệt</th>
+                </tr>
             </thead>
 
             <tbody>
               {dangTai ? (
                 <tr>
-                  <td className="p-4 text-slate-300" colSpan={7}>
+                  <td className="p-4 text-slate-300" colSpan={11}>
                     Đang tải dữ liệu...
                   </td>
                 </tr>
               ) : duLieuDaLoc.length === 0 ? (
                 <tr>
-                  <td className="p-4 text-slate-300" colSpan={7}>
+                  <td className="p-4 text-slate-300" colSpan={11}>
                     Chưa có học viên đăng ký.
                   </td>
                 </tr>
@@ -350,6 +426,10 @@ return dungTuKhoa && dungTrangThai;
 </td>                    <td className="p-4 text-slate-300">
                       {new Date(dong.created_at).toLocaleString("vi-VN")}
                     </td>
+                    <td className="p-4">{dong.ngay_sinh || "-"}</td>
+<td className="p-4">{dong.gio_sinh || "-"}</td>
+<td className="p-4">{dong.nhu_cau || "-"}</td>
+<td className="p-4">{dong.ghi_chu_dac_biet || "-"}</td>
                   </tr>
                 ))
               )}

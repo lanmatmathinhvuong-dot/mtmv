@@ -8,7 +8,10 @@ export default function Home() {
   const [soDienThoai, setSoDienThoai] = useState("");
   const [mongMuon, setMongMuon] = useState("");
   const [thongBao, setThongBao] = useState("");
-
+const [ngaySinh, setNgaySinh] = useState("");
+const [gioSinh, setGioSinh] = useState("");
+const [nhuCau, setNhuCau] = useState("");
+const [ghiChuDacBiet, setGhiChuDacBiet] = useState("");
   async function guiDangKy() {
     if (!hoTen || !soDienThoai) {
       setThongBao("Cô nhập giúp con họ tên và số điện thoại nhé.");
@@ -20,6 +23,10 @@ export default function Home() {
         ho_ten: hoTen,
         so_dien_thoai: soDienThoai,
         mong_muon: mongMuon,
+       ngay_sinh: ngaySinh,
+  gio_sinh: gioSinh,
+  nhu_cau: nhuCau,
+  ghi_chu_dac_biet: ghiChuDacBiet,
       },
     ]);
 
@@ -33,6 +40,10 @@ export default function Home() {
     setHoTen("");
     setSoDienThoai("");
     setMongMuon("");
+    setNgaySinh("");
+setGioSinh("");
+setNhuCau("");
+setGhiChuDacBiet("");
   }
 
   return (
@@ -74,7 +85,7 @@ export default function Home() {
     Mỗi người đều có một bản hướng dẫn bên trong
   </h2>
   <p className="mt-3 text-slate-200">
-    Học viện Mật Mã Thịnh Vượng giúp bạn đọc bản hướng dẫn ấy bằng ShuYi,
+    Học viện Mật Mã Thịnh Vượng giúp bạn đọc bản hướng dẫn ấy bằng Kinh Dịch ShuYi,
     chuyển sự hiểu mình thành hành động thực tế và đưa năng lực thật vào một
     cuộc sống có giá trị.
   </p>
@@ -178,7 +189,7 @@ export default function Home() {
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
         >
           <h2 className="text-3xl font-black text-yellow-300">
-            Đăng ký học thử
+            Bắt đầu hành trình hiểu mình
           </h2>
 
           <input
@@ -194,19 +205,43 @@ export default function Home() {
             value={soDienThoai}
             onChange={(e) => setSoDienThoai(e.target.value)}
           />
+<input
+  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
+  placeholder="Ngày/tháng/năm sinh"
+  value={ngaySinh}
+  onChange={(e) => setNgaySinh(e.target.value)}
+/>
 
+<input
+  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
+  placeholder="Giờ sinh nếu nhớ. Ví dụ: 22:30 hoặc 23:15"
+  value={gioSinh}
+  onChange={(e) => setGioSinh(e.target.value)}
+/>
           <input
             className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-slate-950"
             placeholder="Ví dụ: Tôi muốn tự tin hơn, tăng thu nhập, xây dựng sản phẩm tri thức..."
             value={mongMuon}
             onChange={(e) => setMongMuon(e.target.value)}
           />
+<input
+  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
+  placeholder="Bạn muốn hiểu rõ điều gì nhất?"
+  value={nhuCau}
+  onChange={(e) => setNhuCau(e.target.value)}
+/>
 
+<input
+  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
+  placeholder="Ghi chú đặc biệt nếu có: sinh đôi, sinh sau 23h, không nhớ giờ sinh..."
+  value={ghiChuDacBiet}
+  onChange={(e) => setGhiChuDacBiet(e.target.value)}
+/>
           <button
             onClick={guiDangKy}
             className="mt-6 w-full rounded-xl bg-yellow-400 px-5 py-4 font-bold text-slate-950 hover:bg-yellow-300"
           >
-            Gửi đăng ký
+     Nhận buổi định hướng
           </button>
 
           {thongBao && (
