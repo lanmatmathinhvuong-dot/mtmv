@@ -369,7 +369,7 @@ return dungTuKhoa && dungTrangThai;
   </div>
 )}
  
-        <div className="bg-slate-900 rounded-2xl overflow-x-auto border border-slate-700">
+        <div className="hidden bg-slate-900 rounded-2xl overflow-x-auto border border-slate-700">
          <table className="min-w-[2600px] w-full text-left">
             <thead className="bg-slate-800 text-yellow-300">
               <tr>
