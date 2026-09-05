@@ -219,7 +219,7 @@ setGhiChuDacBiet("");
           
 <input
   className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
-  placeholder="Định hướng bạn khát khao nhất là?"
+  placeholder="Định hướng bạn khát khao là?"
   value={nhuCau}
   onChange={(e) => setNhuCau(e.target.value)}
 />
