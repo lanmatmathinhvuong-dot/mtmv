@@ -259,7 +259,7 @@ return dungTuKhoa && dungTrangThai;
     type="text"
     value={tuKhoaTimKiem}
     onChange={(e) => setTuKhoaTimKiem(e.target.value)}
-    placeholder="Tìm theo tên, số điện thoại, mong muốn, trạng thái, ghi chú..."
+   placeholder="Tìm theo tên, số điện thoại, mong muốn, ngày sinh, giờ sinh, nhu cầu, ghi chú..."
    className="w-full px-4 py-3 rounded-xl bg-white text-black placeholder:text-slate-500 border border-yellow-300"
   />
 </div>
