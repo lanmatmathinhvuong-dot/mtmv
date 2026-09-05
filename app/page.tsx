@@ -6,8 +6,7 @@ import { supabase } from "../supabase";
 export default function Home() {
   const [hoTen, setHoTen] = useState("");
   const [soDienThoai, setSoDienThoai] = useState("");
-  const [mongMuon, setMongMuon] = useState("");
-  const [thongBao, setThongBao] = useState("");
+    const [thongBao, setThongBao] = useState("");
 const [ngaySinh, setNgaySinh] = useState("");
 const [gioSinh, setGioSinh] = useState("");
 const [nhuCau, setNhuCau] = useState("");
@@ -22,7 +21,7 @@ const [ghiChuDacBiet, setGhiChuDacBiet] = useState("");
       {
         ho_ten: hoTen,
         so_dien_thoai: soDienThoai,
-        mong_muon: mongMuon,
+        mong_muon: nhuCau,
        ngay_sinh: ngaySinh,
   gio_sinh: gioSinh,
   nhu_cau: nhuCau,
@@ -39,8 +38,7 @@ const [ghiChuDacBiet, setGhiChuDacBiet] = useState("");
     setThongBao("Đã gửi đăng ký thành công!");
     setHoTen("");
     setSoDienThoai("");
-    setMongMuon("");
-    setNgaySinh("");
+        setNgaySinh("");
 setGioSinh("");
 setNhuCau("");
 setGhiChuDacBiet("");
@@ -218,25 +216,15 @@ setGhiChuDacBiet("");
   value={gioSinh}
   onChange={(e) => setGioSinh(e.target.value)}
 />
-          <input
-            className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-slate-950"
-            placeholder="Ví dụ: Tôi muốn tự tin hơn, tăng thu nhập, xây dựng sản phẩm tri thức..."
-            value={mongMuon}
-            onChange={(e) => setMongMuon(e.target.value)}
-          />
+          
 <input
   className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
-  placeholder="Bạn muốn hiểu rõ điều gì nhất?"
+  placeholder="Định hướng bạn khát khao nhất là? Ví dụ: tài chính, mối quan hệ, sự nghiệp..."
   value={nhuCau}
   onChange={(e) => setNhuCau(e.target.value)}
 />
 
-<input
-  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
-  placeholder="Ghi chú đặc biệt nếu có: sinh đôi, sinh sau 23h, không nhớ giờ sinh..."
-  value={ghiChuDacBiet}
-  onChange={(e) => setGhiChuDacBiet(e.target.value)}
-/>
+
           <button
             onClick={guiDangKy}
             className="mt-6 w-full rounded-xl bg-yellow-400 px-5 py-4 font-bold text-slate-950 hover:bg-yellow-300"

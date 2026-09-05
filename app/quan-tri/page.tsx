@@ -66,7 +66,7 @@ const [boLocTrangThai, setBoLocTrangThai] = useState("tất cả");
 async function capNhatGhiChu(id: number, ghiChuMoi: string) {
   const { error } = await supabase
     .from("dang_ky_hoc_thu")
-    .update({ ghi_chu: ghiChuMoi })
+    .update({ ghi_chu_dac_biet: ghiChuMoi })
     .eq("id", id);
 
   if (error) {
@@ -77,7 +77,7 @@ async function capNhatGhiChu(id: number, ghiChuMoi: string) {
 
   setDuLieu((duLieuCu) =>
     duLieuCu.map((dong) =>
-      dong.id === id ? { ...dong, ghi_chu: ghiChuMoi } : dong
+      dong.id === id ? { ...dong, ghi_chu_dac_biet: ghiChuMoi } : dong
     )
   );
 }
@@ -315,9 +315,9 @@ return dungTuKhoa && dungTrangThai;
         </div>
 
         <textarea
-          defaultValue={dong.ghi_chu || ""}
+          defaultValue={dong.ghi_chu_dac_biet || ""}
           onBlur={(e) => capNhatGhiChu(dong.id, e.target.value)}
-          placeholder="Ghi chú chăm sóc..."
+          placeholder="Ghi chú đặc biệt về học viên..."
           rows={3}
           className="mt-4 w-full rounded-xl bg-slate-800 border border-slate-600 px-3 py-2 text-white"
         />
