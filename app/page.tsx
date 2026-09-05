@@ -212,14 +212,14 @@ setGhiChuDacBiet("");
 
 <input
   className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
-  placeholder="Giờ sinh nếu nhớ. Ví dụ: 22:30 hoặc 23:15"
+ placeholder="Giờ sinh nếu nhớ. Ví dụ: 22:30"
   value={gioSinh}
   onChange={(e) => setGioSinh(e.target.value)}
 />
           
 <input
   className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
-  placeholder="Định hướng bạn khát khao nhất là? Ví dụ: tài chính, mối quan hệ, sự nghiệp..."
+  placeholder="Định hướng bạn khát khao nhất là?"
   value={nhuCau}
   onChange={(e) => setNhuCau(e.target.value)}
 />
