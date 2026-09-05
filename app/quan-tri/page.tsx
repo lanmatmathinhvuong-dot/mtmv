@@ -307,11 +307,10 @@ return dungTuKhoa && dungTrangThai;
         </div>
 
         <div className="mt-4 grid gap-2 text-sm text-slate-200">
-          <p><b className="text-yellow-300">Mong muốn:</b> {dong.mong_muon || "-"}</p>
+          <p><b className="text-yellow-300">Định hướng khát khao:</b> {dong.nhu_cau || dong.mong_muon || "-"}</p>
           <p><b className="text-yellow-300">Ngày sinh:</b> {dong.ngay_sinh || "-"}</p>
           <p><b className="text-yellow-300">Giờ sinh:</b> {dong.gio_sinh || "-"}</p>
-          <p><b className="text-yellow-300">Nhu cầu:</b> {dong.nhu_cau || "-"}</p>
-          <p><b className="text-yellow-300">Ghi chú đặc biệt:</b> {dong.ghi_chu_dac_biet || "-"}</p>
+                    <p><b className="text-yellow-300">Ghi chú đặc biệt:</b> {dong.ghi_chu_dac_biet || "-"}</p>
         </div>
 
         <textarea
