@@ -189,7 +189,9 @@ setGhiChuDacBiet("");
           <h2 className="text-3xl font-black text-yellow-300">
             Bắt đầu hành trình hiểu mình
           </h2>
-
+<p className="mb-2 mt-3 text-sm text-slate-200">
+  Để lại thông tin, cô sẽ được định hướng bước tiếp theo phù hợp với mình.
+</p>
           <input
             className="mt-6 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-slate-950"
             placeholder="Họ và tên"
@@ -244,14 +246,14 @@ setGhiChuDacBiet("");
     href="https://zalo.me/0822498668"
     target="_blank"
     rel="noopener noreferrer"
-    className="flex-1 rounded-full bg-blue-500 px-4 py-2 text-center text-sm text-white font-bold shadow-lg hover:bg-blue-600 sm:px-5 sm:py-3 sm:text-base"
+    className="flex-1 rounded-full bg-blue-500 px-3 py-2 text-center text-sm text-white font-bold shadow-lg hover:bg-blue-600 sm:px-5 sm:py-3 sm:text-base"
   >
     Nhắn Zalo
   </a>
 
   <a
     href="tel:0822498668"
-    className="flex-1 rounded-full bg-yellow-400 px-4 py-2 text-center text-sm text-black font-bold shadow-lg hover:bg-yellow-300 sm:px-5 sm:py-3 sm:text-base"
+    className="flex-1 rounded-full bg-yellow-400 px-3 py-2 text-center text-sm text-black font-bold shadow-lg hover:bg-yellow-300 sm:px-5 sm:py-3 sm:text-base"
   >
     Gọi ngay
   </a>
