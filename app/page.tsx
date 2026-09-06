@@ -165,14 +165,13 @@ setGhiChuDacBiet("");
     Hiểu mình, hiểu người, sống đời thịnh vượng
   </p>
   <p className="mt-3 text-sm leading-6 text-slate-200">
-    Thịnh vượng không chỉ là tiền bạc, mà là khả năng hiểu mình, hiểu người và biết đưa ra lựa chọn sáng suốt trong từng giai đoạn của cuộc đời. Khi nhìn rõ lợi thế, giới hạn, nguồn lực và nhịp vận hành của bản thân, bạn sẽ vững vàng hơn trong cách chăm sóc sức khỏe, xây dựng mối quan hệ, phát triển sự nghiệp và quản trị tài chính.
+    Đây là lúc mọi nỗ lực vỡ òa thành kết quả. Khi hiểu rõ lợi thế, giới hạn và nhịp vận hành của bản thân, bạn không còn loay hoay, mà biết cách chăm sóc sức khỏe, xây dựng mối quan hệ, phát triển sự nghiệp và làm chủ tài chính. Thịnh vượng thật sự bắt đầu từ đây.
   </p>
   <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-300">
-    <li>• Sức khỏe: Nhận diện điểm mất cân bằng để biết cách điều chỉnh và phục hồi sinh khí</li>
-    <li>• Mối quan hệ: Hiểu mô thức gây đứt gãy để kiến tạo sự hòa hợp</li>
-    <li>• Sự nghiệp: Chọn đúng thế mạnh, đúng thời điểm và đúng người đồng hành</li>
-    <li>• Tài chính: Quản trị nguồn lực, cơ hội và dòng tiền hiệu quả hơn</li>
-  </ul>
+    <li>• Sức khỏe: nhận diện mất cân bằng, phục hồi sinh khí</li>
+    <li>• Mối quan hệ: hiểu mô thức gây đứt gãy, kiến tạo hòa hợp</li>
+    <li>• Sự nghiệp & tài chính: chọn đúng thế mạnh, đúng người, đúng thời điểm</li>
+      </ul>
 </div>
         </section>
 
@@ -184,7 +183,7 @@ setGhiChuDacBiet("");
             Bắt đầu hành trình hiểu mình
           </h2>
 <p className="mb-2 mt-3 text-sm text-slate-200">
- Để lại thông tin để được định hướng rõ vấn đề đang mắc kẹt và bước tiếp theo phù hợp với bạn.
+ Đừng để thanh xuân trôi qua trong vô thức. Đăng ký ngay hôm nay - bắt đầu hành trình hiểu mình, sống thịnh vượng.
 </p>
           <input
             className="mt-6 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-slate-950"
