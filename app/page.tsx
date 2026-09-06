@@ -82,7 +82,7 @@ setGhiChuDacBiet("");
   <h2 className="mt-3 text-2xl font-bold text-white">
     Mỗi người đều có một bản hướng dẫn bên trong
   </h2>
-  <p className="mt-3 text-slate-200">
+ <p className="mt-3 text-sm leading-6 text-slate-200">
   Kết hợp trí tuệ cổ xưa như Kinh Dịch ứng dụng, Thần số học với khoa học con người hiện đại để nhận diện tài năng, hiểu điểm mù và tìm ra phương pháp rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
   </p>
   <p className="mt-4 font-semibold text-yellow-300">
@@ -99,7 +99,7 @@ setGhiChuDacBiet("");
   <h2 className="mt-3 text-2xl font-bold text-white">
     Không dùng mã để phán định một con người
   </h2>
-  <p className="mt-3 text-slate-200">
+  <p className="mt-3 text-sm leading-6 text-slate-200">
    Mật Mã Tài Năng là phương pháp được phát triển từ trải nghiệm giáo dục thực tiễn, kết hợp Kinh Dịch ứng dụng, Thần số học và khoa học con người hiện đại để nhận diện năng lực lõi, hiểu điểm mù và tìm ra cách rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
   </p>
   <div className="mt-5 grid gap-4 md:grid-cols-3">
@@ -131,16 +131,15 @@ setGhiChuDacBiet("");
   <p className="text-sm font-bold text-yellow-300">BƯỚC 1</p>
   <h2 className="mt-2 text-xl font-bold text-yellow-300">Mật Mã Tư Duy</h2>
   <p className="mt-1 text-sm italic text-slate-300">
-    Đọc mã để hiểu đúng mình
+    Hiểu mình để đổi cách vận hành
   </p>
-  <p className="mt-3 text-slate-200">
-    Giúp bạn nhận diện cấu trúc tư duy, năng lực lõi và những nút thắt
-    đang ảnh hưởng đến lựa chọn của mình qua hệ quy chiếu Kinh Dịch ứng dụng ShuYi.
-  </p>
-  <ul className="mt-4 space-y-2 text-sm text-slate-300">
-    <li>• Nhận diện cách mình tư duy và phản ứng</li>
-    <li>• Thấy rõ điểm mạnh, điểm mù và niềm tin giới hạn</li>
-    <li>• Hiểu ba trục Nguyên nhân – Hành trình – Kết quả</li>
+  <p className="mt-3 text-sm leading-6 text-slate-200">
+  Cảm giác đáng sợ nhất không phải là thất bại, mà là đã cố gắng rất nhiều nhưng vẫn không hiểu mình thực sự là ai, mạnh ở đâu và phải đi về đâu. Mật Mã Tư Duy giúp bạn soi rõ cấu trúc bên trong, nhận diện năng lực lõi và những mô thức vô thức đang kéo bạn lệch khỏi chính mình.
+</p>
+  <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-300">
+    <li>• Nhận diện năng lực lõi và tài sản quý nhất bên trong bạn</li>
+    <li>• Nhìn rõ điểm mù, nỗi bất an và mô thức đang lặp lại</li>
+    <li>• Tìm cách rèn luyện phù hợp để đưa ra lựa chọn sáng suốt hơn</li>
   </ul>
 </div>
 
@@ -148,32 +147,31 @@ setGhiChuDacBiet("");
   <p className="text-sm font-bold text-yellow-300">BƯỚC 2</p>
   <h2 className="mt-2 text-xl font-bold text-yellow-300">Mật Mã Hành Động</h2>
   <p className="mt-1 text-sm italic text-slate-300">
-    Rèn đúng chỗ để tạo thay đổi
+    Phá sương mù, hành động đúng nhịp
   </p>
-  <p className="mt-3 text-slate-200">
-    Chuyển kết quả giải mã thành những hành động nhỏ, rõ ràng và phù hợp
-    với cấu trúc riêng của mỗi người.
+  <p className="mt-3 text-sm leading-6 text-slate-200">
+   Hiểu mình thôi chưa đủ để đổi đời. Bạn cần biết điểm nào cần tháo gỡ trước, nguồn lực nào nên dùng đúng lúc, và thời điểm nào nên tiến, nên lùi, nên bứt phá. Mật Mã Hành Động giúp bạn biến nhận thức thành những bước đi rõ ràng, đúng nhịp với chính mình.
   </p>
-  <ul className="mt-4 space-y-2 text-sm text-slate-300">
-    <li>• Chọn đúng một nút thắt cần tháo gỡ</li>
-    <li>• Xác định một năng lực cần rèn mỗi ngày</li>
-    <li>• Dùng coaching và AI để theo dõi, phản tư và điều chỉnh</li>
+  <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-300">
+    <li>• Định vị nguồn lực và việc cần ưu tiên</li>
+    <li>• Nhận diện mô thức cũ khiến bạn liên tục vấp lại</li>
+    <li>• Chọn đúng thời điểm hành động để bền vững hơn</li>
   </ul>
 </div>
 <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
   <p className="text-sm font-bold text-yellow-300">BƯỚC 3</p>
-  <h2 className="mt-2 text-xl font-bold text-yellow-300">Kinh Dịch ứng dụng ShuYi</h2>
+  <h2 className="mt-2 text-xl font-bold text-yellow-300">Kiến tạo Thịnh Vượng</h2>
   <p className="mt-1 text-sm italic text-slate-300">
-    Biến năng lực thật thành giá trị bền vững
+    Hiểu mình, hiểu người, sống đời thịnh vượng
   </p>
-  <p className="mt-3 text-slate-200">
-    Giúp bạn ứng dụng năng lực đã được nhận diện và rèn luyện vào bản thân,
-    gia đình, các mối quan hệ, sự nghiệp và tài chính.
+  <p className="mt-3 text-sm leading-6 text-slate-200">
+    Thịnh vượng không chỉ là tiền bạc, mà là khả năng hiểu mình, hiểu người và biết đưa ra lựa chọn sáng suốt trong từng giai đoạn của cuộc đời. Khi nhìn rõ lợi thế, giới hạn, nguồn lực và nhịp vận hành của bản thân, bạn sẽ vững vàng hơn trong cách chăm sóc sức khỏe, xây dựng mối quan hệ, phát triển sự nghiệp và quản trị tài chính.
   </p>
-  <ul className="mt-4 space-y-2 text-sm text-slate-300">
-    <li>• Xác định giá trị mình có thể trao cho cộng đồng</li>
-    <li>• Biến kinh nghiệm thành sản phẩm, dịch vụ hoặc tài sản tri thức</li>
-    <li>• Dùng AI để hệ thống hóa, truyền thông và tối ưu công việc</li>
+  <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-300">
+    <li>• Sức khỏe: Nhận diện điểm mất cân bằng để biết cách điều chỉnh và phục hồi sinh khí</li>
+    <li>• Mối quan hệ: Hiểu mô thức gây đứt gãy để kiến tạo sự hòa hợp</li>
+    <li>• Sự nghiệp: Chọn đúng thế mạnh, đúng thời điểm và đúng người đồng hành</li>
+    <li>• Tài chính: Quản trị nguồn lực, cơ hội và dòng tiền hiệu quả hơn</li>
   </ul>
 </div>
         </section>
