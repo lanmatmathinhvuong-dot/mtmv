@@ -77,15 +77,13 @@ setGhiChuDacBiet("");
         </div>
 <div className="mt-12 rounded-3xl border border-yellow-300/30 bg-yellow-300/10 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
-    Hành trình ShuYi ứng dụng
+   Hành trình Kinh Dịch ứng dụng ShuYi
   </p>
   <h2 className="mt-3 text-2xl font-bold text-white">
     Mỗi người đều có một bản hướng dẫn bên trong
   </h2>
   <p className="mt-3 text-slate-200">
-    Học viện Mật Mã Thịnh Vượng giúp bạn đọc bản hướng dẫn ấy bằng Kinh Dịch ShuYi,
-    chuyển sự hiểu mình thành hành động thực tế và đưa năng lực thật vào một
-    cuộc sống có giá trị.
+   Học viện Mật Mã Thịnh Vượng giúp bạn đọc bản hướng dẫn ấy bằng Kinh Dịch ứng dụng ShuYi, chuyển sự hiểu mình thành hành động thực tế và đưa năng lực thật vào một cuộc sống có giá trị.
   </p>
   <p className="mt-4 font-semibold text-yellow-300">
     Đọc mã để rèn. Không đọc mã để phán.
@@ -96,7 +94,7 @@ setGhiChuDacBiet("");
 </div>
 <div className="mt-8 rounded-3xl border border-white/15 bg-white/5 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
-    ShuYi không phải xem bói
+    Kinh Dịch ứng dụng ShuYi không phải xem bói
   </p>
   <h2 className="mt-3 text-2xl font-bold text-white">
     Không dùng mã để phán định một con người
@@ -137,7 +135,7 @@ setGhiChuDacBiet("");
   </p>
   <p className="mt-3 text-slate-200">
     Giúp bạn nhận diện cấu trúc tư duy, năng lực lõi và những nút thắt
-    đang ảnh hưởng đến lựa chọn của mình qua hệ quy chiếu ShuYi.
+    đang ảnh hưởng đến lựa chọn của mình qua hệ quy chiếu Kinh Dịch ứng dụng ShuYi.
   </p>
   <ul className="mt-4 space-y-2 text-sm text-slate-300">
     <li>• Nhận diện cách mình tư duy và phản ứng</li>
@@ -164,7 +162,7 @@ setGhiChuDacBiet("");
 </div>
 <div className="rounded-2xl border border-white/15 bg-white/10 p-6 text-left">
   <p className="text-sm font-bold text-yellow-300">BƯỚC 3</p>
-  <h2 className="mt-2 text-xl font-bold text-yellow-300">Mật Mã Thịnh Vượng</h2>
+  <h2 className="mt-2 text-xl font-bold text-yellow-300">Kinh Dịch ứng dụng ShuYi</h2>
   <p className="mt-1 text-sm italic text-slate-300">
     Biến năng lực thật thành giá trị bền vững
   </p>
