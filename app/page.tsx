@@ -83,7 +83,7 @@ setGhiChuDacBiet("");
     Mỗi người đều có một bản hướng dẫn bên trong
   </h2>
   <p className="mt-3 text-slate-200">
-   Học viện Mật Mã Thịnh Vượng giúp bạn đọc bản hướng dẫn ấy bằng Kinh Dịch ứng dụng ShuYi, chuyển sự hiểu mình thành hành động thực tế và đưa năng lực thật vào một cuộc sống có giá trị.
+  Kết hợp trí tuệ cổ xưa như Kinh Dịch ứng dụng, Thần số học với khoa học con người hiện đại để nhận diện tài năng, hiểu điểm mù và tìm ra phương pháp rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
   </p>
   <p className="mt-4 font-semibold text-yellow-300">
     Đọc mã để rèn. Không đọc mã để phán.
