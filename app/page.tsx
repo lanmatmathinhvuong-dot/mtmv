@@ -102,9 +102,7 @@ setGhiChuDacBiet("");
     Không dùng mã để phán định một con người
   </h2>
   <p className="mt-3 text-slate-200">
-    ShuYi trong Học viện Mật Mã Thịnh Vượng được dùng như một hệ quy chiếu
-    để quan sát cấu trúc bên trong, nhận diện điểm mạnh, điểm mù và những
-    mô thức đang lặp lại.
+    Kinh Dịch ứng dụng ShuYi trong Học viện Mật Mã Thịnh Vượng được dùng như một hệ quy chiếu để quan sát cấu trúc bên trong, nhận diện điểm mạnh, điểm mù và những mô thức đang lặp lại.
   </p>
   <div className="mt-5 grid gap-4 md:grid-cols-3">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
@@ -190,7 +188,7 @@ setGhiChuDacBiet("");
             Bắt đầu hành trình hiểu mình
           </h2>
 <p className="mb-2 mt-3 text-sm text-slate-200">
-  Để lại thông tin, cô sẽ được định hướng bước tiếp theo phù hợp với mình.
+ Để lại thông tin để được định hướng rõ vấn đề đang mắc kẹt và bước tiếp theo phù hợp với bạn.
 </p>
           <input
             className="mt-6 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-slate-950"
