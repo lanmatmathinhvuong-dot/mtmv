@@ -77,7 +77,7 @@ setGhiChuDacBiet("");
         </div>
 <div className="mt-12 rounded-3xl border border-yellow-300/30 bg-yellow-300/10 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
-   Hành trình Kinh Dịch ứng dụng ShuYi
+   Hành trình Mật Mã Tài Năng
   </p>
   <h2 className="mt-3 text-2xl font-bold text-white">
     Mỗi người đều có một bản hướng dẫn bên trong
@@ -94,13 +94,13 @@ setGhiChuDacBiet("");
 </div>
 <div className="mt-8 rounded-3xl border border-white/15 bg-white/5 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
-    Kinh Dịch ứng dụng ShuYi không phải xem bói
+    Mật Mã Tài Năng không phải bói toán
   </p>
   <h2 className="mt-3 text-2xl font-bold text-white">
     Không dùng mã để phán định một con người
   </h2>
   <p className="mt-3 text-slate-200">
-    Kinh Dịch ứng dụng ShuYi trong Học viện Mật Mã Thịnh Vượng được dùng như một hệ quy chiếu để quan sát cấu trúc bên trong, nhận diện điểm mạnh, điểm mù và những mô thức đang lặp lại.
+   Mật Mã Tài Năng là phương pháp được phát triển từ trải nghiệm giáo dục thực tiễn, kết hợp Kinh Dịch ứng dụng, Thần số học và khoa học con người hiện đại để nhận diện năng lực lõi, hiểu điểm mù và tìm ra cách rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
   </p>
   <div className="mt-5 grid gap-4 md:grid-cols-3">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
