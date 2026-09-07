@@ -324,6 +324,125 @@ setGhiChuDacBiet("");
     </div>
   </div>
 </section>
+<section className="mt-16 rounded-3xl border border-white/10 bg-slate-900/60 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    BẠN ĐANG TÌM ĐIỀU GÌ?
+  </p>
+
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Mỗi người đến với Mật Mã Tài Năng từ một{" "}
+    <span className="text-yellow-300">cánh cửa khác nhau</span>.
+  </h2>
+
+  <div className="mt-5 max-w-5xl space-y-4 text-sm leading-7 text-slate-200">
+    <p>
+      Có người muốn hiểu con, có người muốn hiểu chính mình. Có người đang mắc
+      kẹt trong sự nghiệp, tình yêu, sức khỏe, tài chính hoặc việc chọn người
+      đồng hành.
+    </p>
+
+    <p className="font-semibold text-yellow-100">
+      Nhưng sau cùng, tất cả đều đang tìm cùng một điều: sống đúng hơn với cấu
+      trúc thật của mình.
+    </p>
+  </div>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cánh cửa 1
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôi muốn hiểu con và định hướng đúng cho con
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Con có nhiều tiềm năng, nhưng cũng có những phản ứng và thói quen khiến
+        bạn không biết nên dạy theo cách nào. Bạn không muốn ép con vào khuôn
+        cũ, cũng không muốn bỏ lỡ giai đoạn vàng để con được rèn đúng hướng,
+        đúng thế mạnh của mình.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cánh cửa 2
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôi muốn hiểu rõ chính mình
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn đã cố gắng nhiều, học nhiều, thay đổi nhiều — nhưng vẫn có cảm giác
+        chưa thật sự hiểu mình. Bạn cần biết mình mạnh ở đâu, dễ mắc kẹt ở đâu
+        và nên bắt đầu rèn từ điểm nào trước tiên.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cánh cửa 3
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôi đang mất định hướng sự nghiệp
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Tiếp tục, rẽ hướng, học thêm, khởi nghiệp hay dừng lại để nhìn lại —
+        bạn không chắc nên chọn con đường nào. Mật Mã Tài Năng giúp bạn quan sát
+        năng lực lõi và nhịp hành động, để chọn đúng lựa chọn cho đúng giai đoạn
+        hiện tại của mình.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cánh cửa 4
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôi muốn cải thiện các mối quan hệ
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn mệt vì những xung đột cứ lặp lại — trong gia đình, tình yêu, công
+        việc. Bạn muốn hiểu vì sao mình hay phản ứng như vậy, vì sao người kia
+        vận hành như vậy, và làm sao để bớt tổn thương nhau hơn mỗi ngày.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cánh cửa 5
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôi là doanh nhân, cần chọn đúng người đồng hành
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-200">
+        Bạn không chỉ cần người giỏi. Bạn cần người hợp nhịp, bổ trợ đúng phần
+        mình còn thiếu và có thể cùng đi đường dài. Chọn sai người có thể khiến
+        bạn mất tiền, mất năng lượng, mất cơ hội — và mất nhiều năm để sửa lại.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cánh cửa 6
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôi có thành tựu, nhưng chưa thật sự bình an
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bên ngoài bạn có thể đang ổn, thậm chí thành công. Nhưng bên trong vẫn
+        có một khoảng trống, một sự mỏi mệt, một cảm giác chưa sống đúng với
+        điều sâu nhất trong mình. Đây là lúc cần quay về đọc lại chính mình —
+        trước khi đi tiếp.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Bạn không cần chắc mình thuộc nhóm nào. Chỉ cần bắt đầu từ điều đang làm
+      bạn thao thức nhất.
+    </p>
+  </div>
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
