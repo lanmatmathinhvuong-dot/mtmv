@@ -219,6 +219,64 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>
+     <section className="mt-16 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    MẬT MÃ TÀI NĂNG GIÚP BẠN SOI ĐIỀU GÌ?
+  </p>
+
+  <h2 className="mt-3 text-3xl font-black text-white">
+    Không phán xét. Không đóng khung. Chỉ soi rõ cách một con người đang vận hành.
+  </h2>
+
+  <div className="mt-4 space-y-3 text-sm leading-6 text-slate-200">
+    <p>
+      Không dùng để phán xét. Không dùng một con số để kết luận một con người. Cũng không đóng khung bất kỳ ai vào vài dòng mô tả.
+    </p>
+    <p>
+      Mật Mã Tài Năng là một hệ quy chiếu với nhiều lớp dữ liệu, giúp bạn quan sát sâu hơn cấu trúc bên trong và cách một con người đang thực sự vận hành — từ ngày sinh, tên gọi, hành vi thực tế, môi trường sống đến những mô thức đang lặp đi lặp lại.
+    </p>
+    <p>
+      Từ đó, phương pháp này giúp soi rõ 5 lớp dữ liệu:
+    </p>
+  </div>
+
+  <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">1. Năng lực lõi</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Bạn mạnh ở đâu một cách tự nhiên — và điều gì nên được rèn thành tài sản đi cùng cả đời, thay vì mãi chạy theo thế mạnh của người khác.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">2. Điểm mù</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Điều gì đang âm thầm khiến bạn — hoặc con bạn — lặp lại cùng một sai lầm, mà chính bạn không hề hay biết.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">3. Nhịp vận hành cá nhân</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Khi nào nên tiến, khi nào nên chậm lại, và điều gì tuyệt đối không nên ép đi sai thời điểm — vì ép sai nhịp là gốc của mọi kiệt sức.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">4. Mô thức cảm xúc và quan hệ</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia đình, công việc, tình yêu — như thể một vòng lặp không lối thoát.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">5. Hướng rèn luyện</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Không chỉ để biết “mình là ai”, mà để biết nên rèn điều gì trước tiên — từng bước sống sáng rõ, bình an và thịnh vượng hơn.
+      </p>
+    </div>
+  </div>
+</section>   
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
