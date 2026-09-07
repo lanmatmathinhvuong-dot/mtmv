@@ -263,9 +263,9 @@ setGhiChuDacBiet("");
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <h3 className="font-bold text-yellow-300">4. Mô thức cảm xúc và quan hệ</h3>
+      <h3 className="font-bold text-yellow-300">4. Mô thức quan hệ và lựa chọn đối tác</h3>
       <p className="mt-2 text-sm leading-6 text-slate-300">
-        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia đình, công việc, tình yêu — như thể một vòng lặp không lối thoát.
+        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia đình, công việc, tình yêu. Vì suy cho cùng, đời người là một chuỗi những lần chọn người: chọn bạn đời, chọn đối tác, chọn cộng sự, chọn người đồng hành. Lớp dữ liệu này giúp bạn nhận diện ai thực sự bổ trợ được mình — và ai chỉ đang kéo bạn lặp lại tổn thương cũ.
       </p>
     </div>
 
