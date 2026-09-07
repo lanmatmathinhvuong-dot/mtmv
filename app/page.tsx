@@ -174,7 +174,51 @@ setGhiChuDacBiet("");
       </ul>
 </div>
         </section>
+<section className="mt-16 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    VÌ SAO BẠN VẪN MẮC KẸT?
+  </p>
 
+  <h2 className="mt-3 text-3xl font-black text-white">
+    Không phải bạn chưa cố gắng. Mà là bạn đang cố gắng đúng cách sai.
+  </h2>
+
+  <p className="mt-4 text-sm leading-6 text-slate-200">
+    Bạn đã đọc sách, đi học, thay đổi liên tục — nhưng con vẫn xa cách, cảm xúc vẫn bùng nổ, sự nghiệp vẫn giậm chân, tiền vẫn trôi qua kẽ tay, mối quan hệ vẫn đứt gãy rồi lành rồi lại đứt. Một vấn đề lặp lại quá lâu không phải là xui xẻo. Đó có thể là dấu hiệu bạn đang vận hành theo một cấu trúc cũ — và càng cố gắng trong vô thức, bạn càng khắc sâu vết cũ.
+  </p>
+
+  <div className="mt-6 grid gap-4 md:grid-cols-3">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">Hiện tượng bên ngoài</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Con ngày càng khó hiểu. Bạn ngày càng dễ kiệt sức. Người bên cạnh ngày càng xa. Và điều đáng sợ nhất: bạn càng cố, mọi thứ càng siết chặt hơn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">Cấu trúc bên trong</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Đó không phải vì bạn kém cỏi. Đó có thể là điểm mù bạn chưa từng thấy, niềm tin sai bạn chưa từng nghi ngờ, và một nhịp phát triển bị ép sai thời điểm — âm thầm phá mọi nỗ lực của bạn từ bên trong.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="font-bold text-yellow-300">Hướng rèn luyện</h3>
+      <p className="mt-2 text-sm leading-6 text-slate-300">
+        Bạn không cần cố gắng nhiều hơn. Bạn cần nhìn đúng lần đầu tiên. Mật Mã Tài Năng giúp soi rõ điều gì đang thật sự cản bạn — và cách hành động phù hợp hơn để từng bước thoát khỏi mắc kẹt.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-6 rounded-2xl border border-yellow-300/30 bg-yellow-300/10 p-5">
+    <h3 className="text-xl font-black text-yellow-300">
+      Còn bao nhiêu năm nữa bạn định lặp lại vòng lặp này?
+    </h3>
+    <p className="mt-3 text-sm leading-6 text-slate-100">
+      Mỗi ngày trì hoãn là một ngày thanh xuân, sức khỏe và các mối quan hệ tiếp tục trả giá cho một cấu trúc bạn chưa từng sửa. Đăng ký ngay — để mạnh dạn bước ra khỏi vòng lặp cố gắng trong vô thức.
+    </p>
+  </div>
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
