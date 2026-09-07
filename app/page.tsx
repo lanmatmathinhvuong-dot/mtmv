@@ -219,64 +219,111 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>
-     <section className="mt-16 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
+    <section className="mt-16 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
     MẬT MÃ TÀI NĂNG GIÚP BẠN SOI ĐIỀU GÌ?
   </p>
 
-  <h2 className="mt-3 text-3xl font-black text-white">
-    Không phán xét. Không đóng khung. Chỉ soi rõ cách một con người đang vận hành.
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Không phán xét. Không đóng khung. Chỉ soi rõ cách{" "}
+    <span className="text-yellow-300">một con người</span> đang vận hành.
   </h2>
 
-  <div className="mt-4 space-y-3 text-sm leading-6 text-slate-200">
+  <div className="mt-5 max-w-5xl space-y-4 text-sm leading-7 text-slate-200">
     <p>
-      Không dùng để phán xét. Không dùng một con số để kết luận một con người. Cũng không đóng khung bất kỳ ai vào vài dòng mô tả.
+      Không dùng để phán xét. Không dùng một con số để kết luận một con người.
+      Cũng không đóng khung bất kỳ ai vào vài dòng mô tả.
     </p>
+
     <p>
-      Mật Mã Tài Năng là một hệ quy chiếu với nhiều lớp dữ liệu, giúp bạn quan sát sâu hơn cấu trúc bên trong và cách một con người đang thực sự vận hành — từ ngày sinh, tên gọi, hành vi thực tế, môi trường sống đến những mô thức đang lặp đi lặp lại.
+      Mật Mã Tài Năng là một hệ quy chiếu với nhiều lớp dữ liệu, giúp bạn quan
+      sát sâu hơn cấu trúc bên trong và cách một con người đang thực sự vận hành
+      — từ ngày sinh, tên gọi, hành vi thực tế, môi trường sống đến những mô
+      thức đang lặp đi lặp lại.
     </p>
-    <p>
+
+    <p className="font-semibold text-yellow-100">
       Từ đó, phương pháp này giúp soi rõ 5 lớp dữ liệu:
     </p>
   </div>
 
-  <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+  <div className="mt-6 h-1 w-16 rounded-full bg-yellow-300"></div>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <h3 className="font-bold text-yellow-300">1. Năng lực lõi</h3>
-      <p className="mt-2 text-sm leading-6 text-slate-300">
-        Bạn mạnh ở đâu một cách tự nhiên — và điều gì nên được rèn thành tài sản đi cùng cả đời, thay vì mãi chạy theo thế mạnh của người khác.
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
+        1
+      </div>
+      <h3 className="mt-4 text-xl font-black text-white">Năng lực lõi</h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn mạnh ở đâu một cách tự nhiên — và điều gì nên được rèn thành tài
+        sản đi cùng cả đời, thay vì mãi chạy theo thế mạnh của người khác.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/40 bg-slate-900/70 p-5 shadow-lg shadow-yellow-300/5">
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
+        2
+      </div>
+      <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Điểm chạm sâu nhất
+      </p>
+      <h3 className="mt-2 text-xl font-black text-white">Điểm mù</h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Điều gì đang âm thầm khiến bạn — hoặc con bạn — lặp lại cùng một sai
+        lầm, mà chính bạn không hề hay biết.
       </p>
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <h3 className="font-bold text-yellow-300">2. Điểm mù</h3>
-      <p className="mt-2 text-sm leading-6 text-slate-300">
-        Điều gì đang âm thầm khiến bạn — hoặc con bạn — lặp lại cùng một sai lầm, mà chính bạn không hề hay biết.
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
+        3
+      </div>
+      <h3 className="mt-4 text-xl font-black text-white">
+        Nhịp vận hành cá nhân
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Khi nào nên tiến, khi nào nên chậm lại, và điều gì tuyệt đối không nên
+        ép đi sai thời điểm — vì ép sai nhịp là gốc của mọi kiệt sức.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/50 bg-yellow-300/10 p-5 md:col-span-2">
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
+        4
+      </div>
+      <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Lớp dữ liệu quan trọng
+      </p>
+      <h3 className="mt-2 text-xl font-black text-white">
+        Mô thức quan hệ và lựa chọn đối tác
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-200">
+        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia
+        đình, công việc, tình yêu. Vì suy cho cùng, đời người là một chuỗi những
+        lần chọn người: chọn bạn đời, chọn đối tác, chọn cộng sự, chọn người
+        đồng hành. Lớp dữ liệu này giúp bạn nhận diện ai thực sự bổ trợ được
+        mình — và ai chỉ đang kéo bạn lặp lại tổn thương cũ.
+      </p>
+      <p className="mt-4 rounded-xl border border-yellow-300/30 bg-slate-950/40 p-4 text-sm font-semibold leading-6 text-yellow-100">
+        Chọn sai người, bạn không chỉ mất tiền — bạn mất nhịp sống, mất năng
+        lượng và đôi khi mất nhiều năm để sửa lại.
       </p>
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <h3 className="font-bold text-yellow-300">3. Nhịp vận hành cá nhân</h3>
-      <p className="mt-2 text-sm leading-6 text-slate-300">
-        Khi nào nên tiến, khi nào nên chậm lại, và điều gì tuyệt đối không nên ép đi sai thời điểm — vì ép sai nhịp là gốc của mọi kiệt sức.
-      </p>
-    </div>
-
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <h3 className="font-bold text-yellow-300">4. Mô thức quan hệ và lựa chọn đối tác</h3>
-      <p className="mt-2 text-sm leading-6 text-slate-300">
-        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia đình, công việc, tình yêu. Vì suy cho cùng, đời người là một chuỗi những lần chọn người: chọn bạn đời, chọn đối tác, chọn cộng sự, chọn người đồng hành. Lớp dữ liệu này giúp bạn nhận diện ai thực sự bổ trợ được mình — và ai chỉ đang kéo bạn lặp lại tổn thương cũ.
-      </p>
-    </div>
-
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <h3 className="font-bold text-yellow-300">5. Hướng rèn luyện</h3>
-      <p className="mt-2 text-sm leading-6 text-slate-300">
-        Không chỉ để biết “mình là ai”, mà để biết nên rèn điều gì trước tiên — từng bước sống sáng rõ, bình an và thịnh vượng hơn.
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
+        5
+      </div>
+      <h3 className="mt-4 text-xl font-black text-white">Hướng rèn luyện</h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Không chỉ để biết “mình là ai”, mà để biết nên rèn điều gì trước tiên —
+        từng bước sống sáng rõ, bình an và thịnh vượng hơn, thay vì cố gắng
+        trong mù mờ như trước.
       </p>
     </div>
   </div>
-</section>   
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
