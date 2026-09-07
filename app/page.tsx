@@ -180,7 +180,7 @@ setGhiChuDacBiet("");
   </p>
 
   <h2 className="mt-3 text-3xl font-black text-white">
-    Không phải bạn chưa cố gắng. Mà là bạn đang cố gắng đúng cách sai.
+    Không phải bạn chưa cố gắng. Mà là bạn đang cố gắng đúng sức, sai hướng.
   </h2>
 
   <p className="mt-4 text-sm leading-6 text-slate-200">
