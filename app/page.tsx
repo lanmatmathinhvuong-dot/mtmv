@@ -757,7 +757,7 @@ setGhiChuDacBiet("");
       <p className="mt-3 text-sm leading-6 text-slate-300">
         Bản đồ chỉ là điểm bắt đầu để quan sát. Nó giúp bạn nhìn rõ hơn điểm
         xuất phát, nguồn lực hỗ trợ, điểm nghẽn cần tháo gỡ và hướng đi phù hợp
-        hơn với mình.
+        hơn cho mình.
       </p>
     </div>
 
