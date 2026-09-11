@@ -336,7 +336,7 @@ return dungTuKhoa && dungTrangThai;
         <textarea
           defaultValue={dong.ghi_chu_dac_biet || ""}
           onBlur={(e) => capNhatGhiChu(dong.id, e.target.value)}
-          placeholder="Ghi chú đặc biệt về học viên..."
+          placeholder="Ghi chú thêm về điều học viên đang trăn trở..."
           rows={3}
           className="mt-4 w-full rounded-xl bg-slate-800 border border-slate-600 px-3 py-2 text-white"
         />
