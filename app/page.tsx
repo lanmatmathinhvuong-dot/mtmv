@@ -513,11 +513,11 @@ setGhiChuDacBiet("");
         Mảnh ghép 5
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Điều bạn đang quan tâm
+        Điều bạn đang trăn trở
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-200">
         Con cái, bạn đời, sự nghiệp, tiền bạc, đối tác hay chính bản thân bạn —
-        mỗi câu hỏi sẽ mở ra một hướng soi khác nhau.
+        mỗi trăn trở sẽ mở ra một hướng soi khác nhau.
       </p>
     </div>
   </div>
