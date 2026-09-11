@@ -702,6 +702,100 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>    
+     <section className="mt-10 rounded-3xl border border-yellow-300/20 bg-slate-950/60 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    HÀNH TRÌNH THẤU HIỂU
+  </p>
+
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Không phán xét. Không gieo sợ hãi. Không dùng bản đồ để{" "}
+    <span className="text-yellow-300">đóng khung một con người</span>.
+  </h2>
+
+  <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
+    Mật Mã Tài Năng được dùng như một hệ quy chiếu để quan sát, gợi mở và rèn
+    luyện. Chúng tôi không dùng dữ liệu cá nhân để kết luận bạn tốt hay xấu,
+    đúng hay sai, thành công hay thất bại. Mỗi con người luôn lớn hơn mọi bản
+    mô tả về mình.
+  </p>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cam kết 1
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Không phán xét con người
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Không dùng ngày sinh, tên gọi hay bất kỳ dữ liệu nào để dán nhãn, quy
+        chụp hoặc kết luận thay cuộc đời của một người.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cam kết 2
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Không gieo sợ hãi
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Chúng tôi tiếp cận bằng Kinh Dịch ứng dụng và nhiều lớp dữ liệu để giúp
+        bạn thấu hiểu rõ hơn trước khi ra quyết định. Khi tâm trí bình an, lựa
+        chọn của bạn cũng sáng rõ và chính xác hơn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cam kết 3
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Không bói toán hóa dữ liệu
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bản đồ chỉ là điểm bắt đầu để quan sát. Nó giúp bạn nhìn rõ hơn điểm
+        xuất phát, nguồn lực hỗ trợ, điểm nghẽn cần tháo gỡ và hướng đi phù hợp
+        hơn với mình.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cam kết 4
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tôn trọng riêng tư
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn không cần kể toàn bộ câu chuyện đời mình ngay từ đầu. Mọi chia sẻ
+        đều được tiếp nhận trong sự tôn trọng và đúng mục đích soi mở.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5 xl:col-span-2">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Cam kết 5
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Giáo dục để bạn tự nguyện lựa chọn
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-200">
+        Chúng tôi không ép bạn phải tin, phải học hay phải đi tiếp. Hành trình
+        này chỉ có ý nghĩa khi bạn tự thấy điều đó phù hợp với mình và sẵn sàng
+        rèn luyện từ bên trong.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/70 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Đọc mã để hiểu. Hiểu để rèn. Rèn để sống tự do, sáng rõ và có trách nhiệm
+      hơn.
+    </p>
+  </div>
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
