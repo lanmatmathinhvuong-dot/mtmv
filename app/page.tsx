@@ -445,110 +445,89 @@ setGhiChuDacBiet("");
 </section>
    <section className="mt-16 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
-    BUỔI SOI MỞ KHÓA 1:1
+    NHẬN GỢI MỞ BAN ĐẦU TỪ BẢN ĐỒ CỦA BẠN
   </p>
 
   <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
-    Không phán xét bạn là ai. Chỉ cùng bạn soi lại{" "}
-    <span className="text-yellow-300">điều đang lặp lại</span> trong đời sống thật.
+    Chỉ cần một vài dữ liệu nền, bạn sẽ bắt đầu thấy{" "}
+    <span className="text-yellow-300">những tín hiệu hé mở</span>.
   </h2>
 
-  <div className="mt-5 max-w-5xl space-y-4 text-sm leading-7 text-slate-200">
-    <p>
-      Buổi Soi Mở Khóa 1:1 là bước đầu tiên để bạn nhìn lại bản đồ vận hành của
-      chính mình — hoặc của con, của người bạn đang quan tâm — thông qua ngày
-      sinh, tên gọi, bối cảnh hiện tại và những vấn đề đang lặp đi lặp lại.
-    </p>
+  <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
+    Chỉ cần họ tên, ngày sinh và điều bạn đang quan tâm, bạn sẽ bắt đầu thấy
+    những tín hiệu hé mở trong bản đồ vận hành của mình.
+  </p>
 
-    <p>
-      Đây không phải một buổi “xem số” rồi kết luận bạn tốt hay xấu. Đây là một
-      buổi truy vấn bằng câu hỏi, đối chiếu với dữ liệu Mật Mã Tài Năng, để giúp
-      bạn nhận ra đâu là điểm mạnh nổi bật, đâu là vùng thiếu cần kiểm nghiệm,
-      và đâu có thể là nút thắt đang âm thầm chi phối lựa chọn của bạn.
-    </p>
-
-    <p className="font-semibold text-yellow-100">
-      Mục tiêu không phải là biết thật nhiều thông tin. Mục tiêu là nhìn rõ điểm
-      gốc nên bắt đầu rèn trước tiên.
-    </p>
-  </div>
-
-  <div className="mt-8 grid gap-5 md:grid-cols-3">
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Bước 1
+        Mảnh ghép 1
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Nhập dữ liệu nền
+        Con số còn thiếu
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Bạn cung cấp họ tên, ngày sinh, giờ sinh nếu nhớ và điều đang thật sự
-        muốn tháo gỡ: bản thân, con cái, sự nghiệp, tiền bạc, mối quan hệ hay
-        người đồng hành.
+        Gợi mở những vùng năng lực cần được quan sát và rèn luyện thêm.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Mảnh ghép 2
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        81 bộ số
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Gợi mở cách các con số kết hợp thành một kiểu vận hành riêng.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Mảnh ghép 3
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Ngũ hành
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Gợi mở sự cân bằng, thiên lệch và nhịp vận hành bên trong.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Mảnh ghép 4
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tên gọi
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Gợi mở năng lượng tên và cách tên có thể đồng hành với định hướng phát
+        triển.
       </p>
     </div>
 
     <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Bước 2
+        Mảnh ghép 5
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Truy vấn đời thật
+        Điều bạn đang quan tâm
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-200">
-        Chuyên gia không vội kết luận từ con số, mà đặt câu hỏi để kiểm nghiệm:
-        điều gì đang lặp lại, điều gì bạn đã cố sửa nhiều lần nhưng vẫn quay
-        lại, và mô thức nào đang vận hành trong vô thức.
-      </p>
-    </div>
-
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Bước 3
-      </p>
-      <h3 className="mt-3 text-xl font-black text-white">
-        Soi điểm cần rèn
-      </h3>
-      <p className="mt-3 text-sm leading-6 text-slate-300">
-        Sau khi đối chiếu dữ liệu và đời sống thật, bạn nhận được một vài điểm
-        soi mở khóa: điểm mạnh nổi bật, vùng thiếu cần chú ý và điểm gốc nên
-        bắt đầu rèn trước.
+        Con cái, bạn đời, sự nghiệp, tiền bạc, đối tác hay chính bản thân bạn —
+        mỗi câu hỏi sẽ mở ra một hướng soi khác nhau.
       </p>
     </div>
   </div>
 
-  <div className="mt-8 grid gap-5 md:grid-cols-2">
-    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
-      <h3 className="text-xl font-black text-white">
-        Bạn nhận được gì sau buổi 1:1?
-      </h3>
-      <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-300">
-        <li>• Bản đồ nền từ dữ liệu cá nhân của bạn.</li>
-        <li>• Một vài điểm mạnh nổi bật có thể rèn thành tài sản.</li>
-        <li>• Một vài mô thức lặp lại cần được nhìn thẳng.</li>
-        <li>• Điểm gốc nên bắt đầu tháo gỡ trước tiên.</li>
-        <li>• Gợi ý hướng đi tiếp theo nếu bạn muốn rèn sâu hơn.</li>
-      </ul>
-    </div>
-
-    <div className="rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5">
-      <h3 className="text-xl font-black text-yellow-300">
-        Đây là buổi có phí giữ chỗ
-      </h3>
-      <p className="mt-4 text-sm leading-6 text-slate-200">
-        Buổi 1:1 không miễn phí hoàn toàn, vì đây là thời gian tư vấn trực tiếp
-        và có giá trị thật. Mức phí nhỏ giúp xác nhận sự nghiêm túc của người
-        đăng ký, đồng thời để buổi soi diễn ra tập trung, tôn trọng và hiệu quả
-        hơn.
-      </p>
-
-      <p className="mt-4 rounded-xl border border-yellow-300/30 bg-yellow-300/10 p-4 text-sm font-semibold leading-6 text-yellow-100">
-        Buổi đầu giúp bạn nhìn rõ vấn đề nằm ở đâu. Còn lộ trình rèn luyện chi
-        tiết sẽ được xây dựng riêng nếu bạn muốn đi tiếp.
-      </p>
-    </div>
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Bạn không cần kể toàn bộ câu chuyện đời mình. Chỉ cần bắt đầu từ nút thắt bạn đang muốn nhìn rõ nhất.
+    </p>
   </div>
-</section>     
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
