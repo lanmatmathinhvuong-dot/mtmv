@@ -225,7 +225,7 @@ return dungTuKhoa && dungTrangThai;
               Trang quản trị khách đăng ký định hướng
             </h1>
             <p className="text-slate-300 mt-2">
-              Danh sách học viên đã gửi form đăng ký từ website.
+              Danh sách khách đã kết nối và để lại thông tin từ website.
             </p>
           </div>
 <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
