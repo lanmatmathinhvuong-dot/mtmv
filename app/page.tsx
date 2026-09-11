@@ -833,11 +833,45 @@ setGhiChuDacBiet("");
   onChange={(e) => setGioSinh(e.target.value)}
 />
           
-<input
-  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white px-4 text-black"
-  placeholder="Định hướng bạn khát khao là?"
+<select
+  className="mt-4 h-12 w-full rounded-xl border border-white/20 bg-white/10 px-4 text-white"
   value={nhuCau}
   onChange={(e) => setNhuCau(e.target.value)}
+>
+  <option value="" className="text-black">
+    Bạn muốn gợi mở về điều gì?
+  </option>
+  <option value="Hiểu con và định hướng cho con" className="text-black">
+    Hiểu con và định hướng cho con
+  </option>
+  <option value="Hiểu rõ chính mình" className="text-black">
+    Hiểu rõ chính mình
+  </option>
+  <option value="Định hướng sự nghiệp" className="text-black">
+    Định hướng sự nghiệp
+  </option>
+  <option value="Tình yêu / bạn đời / hôn nhân" className="text-black">
+    Tình yêu / bạn đời / hôn nhân
+  </option>
+  <option value="Tiền bạc / tài chính cá nhân" className="text-black">
+    Tiền bạc / tài chính cá nhân
+  </option>
+  <option value="Chọn đối tác / người đồng hành" className="text-black">
+    Chọn đối tác / người đồng hành
+  </option>
+  <option value="Đặt tên cho con / tên gọi cá nhân" className="text-black">
+    Đặt tên cho con / tên gọi cá nhân
+  </option>
+  <option value="Một trăn trở khác" className="text-black">
+    Một trăn trở khác
+  </option>
+</select>
+
+<textarea
+  className="mt-4 min-h-28 w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder:text-slate-400"
+  placeholder="Điều bạn đang trăn trở nhất lúc này là gì?"
+  value={ghiChuDacBiet}
+  onChange={(e) => setGhiChuDacBiet(e.target.value)}
 />
 
 
