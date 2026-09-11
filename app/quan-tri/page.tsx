@@ -222,7 +222,7 @@ return dungTuKhoa && dungTrangThai;
               Học viện Mật Mã Thịnh Vượng
             </p>
             <h1 className="text-3xl md:text-4xl font-bold mt-2">
-              Trang quản trị đăng ký học thử
+              Trang quản trị khách đăng ký định hướng
             </h1>
             <p className="text-slate-300 mt-2">
               Danh sách học viên đã gửi form đăng ký từ website.
