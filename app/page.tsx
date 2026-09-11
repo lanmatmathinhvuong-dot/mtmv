@@ -534,8 +534,8 @@ setGhiChuDacBiet("");
   </p>
 
   <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
-    Mọi sự thấu hiểu sâu sắc đều bắt đầu từ một nhịp chạm an toàn.{" "}
-    <span className="text-yellow-300">một bước xác nhận nhẹ nhàng</span>.
+    Mọi sự thấu hiểu sâu sắc đều bắt đầu từ một nhịp chạm an toàn{" "}
+    <span className="text-yellow-300">- và một bước xác nhận nhẹ nhàng</span>.
   </h2>
 
   <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
