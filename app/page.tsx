@@ -454,7 +454,7 @@ setGhiChuDacBiet("");
   </h2>
 
   <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
-    Chỉ cần họ tên, ngày sinh và điều bạn đang quan tâm, bạn sẽ bắt đầu thấy
+    Chỉ cần họ tên, ngày sinh và điều bạn đang trăn trở, bạn sẽ bắt đầu thấy
     những tín hiệu hé mở trong bản đồ vận hành của mình.
   </p>
 
