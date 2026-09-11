@@ -598,6 +598,110 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>     
+   <section className="mt-10 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    AI PHÙ HỢP VỚI MẬT MÃ TÀI NĂNG?
+  </p>
+
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Đây không phải nơi dành cho người muốn nghe một lời phán. Đây là nơi dành
+    cho người muốn{" "}
+    <span className="text-yellow-300">hiểu mình sâu hơn để rèn đúng hơn</span>.
+  </h2>
+
+  <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
+    Mỗi người bước vào hành trình này từ một trăn trở khác nhau. Có người muốn
+    hiểu con, có người muốn hiểu chính mình, có người đang đứng trước một lựa
+    chọn lớn trong sự nghiệp, tình yêu, tiền bạc hoặc người đồng hành.
+  </p>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Nhóm 1
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Cha mẹ muốn hiểu con
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn muốn nhận diện tiềm năng, khí chất và cách rèn phù hợp hơn cho con,
+        thay vì ép con đi theo một khuôn mẫu có sẵn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Nhóm 2
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Người muốn hiểu chính mình
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn đã học nhiều, cố gắng nhiều, nhưng vẫn muốn biết mình mạnh ở đâu,
+        dễ lệch ở đâu và nên bắt đầu rèn từ điểm nào.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Nhóm 3
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Người đang chọn hướng đi
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn đang phân vân về học tập, sự nghiệp, khởi nghiệp, chuyển hướng hay
+        một quyết định quan trọng trong giai đoạn hiện tại.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Nhóm 4
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Người muốn cải thiện mối quan hệ
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn muốn hiểu vì sao có những xung đột cứ lặp lại trong gia đình, tình
+        yêu, công việc hoặc các mối quan hệ thân thiết.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Nhóm 5
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Doanh nhân cần chọn người đồng hành
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-200">
+        Bạn muốn quan sát kỹ hơn về sự phù hợp giữa mình với cộng sự, đối tác
+        hoặc người có thể cùng đi đường dài.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Nhóm 6
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Người có thành tựu nhưng muốn sống sâu hơn
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bên ngoài có thể bạn đang ổn, nhưng bên trong vẫn có một điều gì đó
+        thôi thúc bạn hiểu mình rõ hơn trước khi bước tiếp.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Bạn không cần thuộc một nhóm nào cố định. Chỉ cần có một điều thật sự muốn
+      hiểu, hành trình đã có thể bắt đầu.
+    </p>
+  </div>
+</section>    
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
