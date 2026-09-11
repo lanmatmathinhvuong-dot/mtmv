@@ -604,8 +604,8 @@ setGhiChuDacBiet("");
   </p>
 
   <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
-    Đây không phải nơi dành cho người muốn nghe một lời phán. Đây là nơi dành
-    cho người muốn{" "}
+    Đây không phải nơi dành cho người tìm một lời phán. Đây là nơi dành
+    cho người khát khao{" "}
     <span className="text-yellow-300">hiểu mình sâu hơn để rèn đúng hơn</span>.
   </h2>
 
