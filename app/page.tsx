@@ -83,7 +83,7 @@ setGhiChuDacBiet("");
     Mỗi người đều có một bản hướng dẫn bên trong
   </h2>
  <p className="mt-3 text-sm leading-6 text-slate-200">
-  Kết hợp trí tuệ cổ xưa như Kinh Dịch ứng dụng, Thần số học với khoa học con người hiện đại để nhận diện tài năng, hiểu điểm mù và tìm ra phương pháp rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
+  Sự giao thoa giữa Kinh Dịch ứng dụng, Thần số học và khoa học hành vi hiện đại mở ra một lăng kính để bạn quan sát chính mình rõ hơn. Đây là tấm bản đồ giúp nhận diện năng lực nổi bật, soi sáng những góc khuất và định hình phương pháp rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
   </p>
   <p className="mt-4 font-semibold text-yellow-300">
     Đọc mã để rèn. Không đọc mã để phán.
@@ -100,25 +100,25 @@ setGhiChuDacBiet("");
     Không dùng mã để phán định một con người
   </h2>
   <p className="mt-3 text-sm leading-6 text-slate-200">
-   Mật Mã Tài Năng là phương pháp được phát triển từ trải nghiệm giáo dục thực tiễn, kết hợp Kinh Dịch ứng dụng, Thần số học và khoa học con người hiện đại để nhận diện năng lực lõi, hiểu điểm mù và tìm ra cách rèn luyện phù hợp trên hành trình kiến tạo thịnh vượng.
+   Mật Mã Tài Năng được đúc kết từ trải nghiệm giáo dục thực tiễn, kết hợp nhiều hệ quy chiếu để giúp bạn hiểu rõ hơn cách mình đang vận hành. Phương pháp này không nhằm phán định số phận, mà giúp mỗi người có thêm dữ liệu để rèn luyện, lựa chọn và chịu trách nhiệm với hành trình của mình.
   </p>
   <div className="mt-5 grid gap-4 md:grid-cols-3">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
-      <p className="font-bold text-yellow-300">Không phán số</p>
+      <p className="font-bold text-yellow-300">Góc nhìn đa chiều</p>
       <p className="mt-2 text-sm text-slate-300">
-        Không dùng một con số để kết luận tốt xấu về một con người.
+        Các chỉ số là điểm tựa để thấu hiểu tiềm năng, không phải thước đo để kết luận tốt hay xấu về một con người.
       </p>
     </div>
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
-      <p className="font-bold text-yellow-300">Không quyết định thay bạn</p>
+      <p className="font-bold text-yellow-300">Trao quyền làm chủ</p>
       <p className="mt-2 text-sm text-slate-300">
-        Mỗi người vẫn là người chịu trách nhiệm cho lựa chọn của chính mình.
+        Bản đồ có thể giúp soi sáng điểm mù, nhưng quyền lựa chọn và trách nhiệm kiến tạo cuộc đời vẫn nằm trong tay bạn.
       </p>
     </div>
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
-      <p className="font-bold text-yellow-300">Dùng để rèn luyện</p>
+      <p className="font-bold text-yellow-300">Thực hành tỉnh thức</p>
       <p className="mt-2 text-sm text-slate-300">
-        Đọc mã để hiểu mình, rèn hành vi và lựa chọn tỉnh thức hơn.
+        Đọc mã để hiểu mình sâu sắc hơn, từ đó điều chỉnh hành vi và rèn luyện nội lực mỗi ngày.
       </p>
     </div>
   </div>
