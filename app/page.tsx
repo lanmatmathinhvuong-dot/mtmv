@@ -528,6 +528,82 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>
+  <section className="mt-10 rounded-3xl border border-white/10 bg-slate-900/60 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    SAU KHI ĐĂNG KÝ, ĐIỀU GÌ SẼ XẢY RA?
+  </p>
+
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Bạn không bị đưa ngay vào một buổi tư vấn sâu. Mọi thứ bắt đầu từ{" "}
+    <span className="text-yellow-300">một bước xác nhận nhẹ nhàng</span>.
+  </h2>
+
+  <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
+    Sau khi để lại thông tin, đội ngũ sẽ liên hệ để xác nhận điều bạn đang trăn
+    trở và hình thức phù hợp. Bạn không cần kể hết câu chuyện đời mình ngay từ
+    đầu — chỉ cần nói rõ điều bạn muốn được gợi mở trước tiên.
+  </p>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Bước 1
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Bạn để lại thông tin
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Họ tên, số điện thoại, ngày sinh và điều bạn đang trăn trở.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Bước 2
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Xác nhận nhu cầu
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Đội ngũ liên hệ để hiểu bạn muốn soi cho bản thân, con cái, sự nghiệp,
+        mối quan hệ, tiền bạc hay người đồng hành.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/30 bg-yellow-300/10 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Bước 3
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Chọn hình thức phù hợp
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-200">
+        Bạn có thể trao đổi online hoặc trực tiếp, tùy điều kiện và mức độ cần
+        gợi mở.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Bước 4
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Bắt đầu gợi mở
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn được hướng dẫn bước đầu để nhìn rõ hơn điều đang cần hiểu, trước khi
+        quyết định có đi sâu hơn hay không.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Mọi thứ bắt đầu rất nhẹ: để lại thông tin, xác nhận điều đang trăn trở,
+      rồi chọn bước đi phù hợp với bạn.
+    </p>
+  </div>
+</section>     
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
