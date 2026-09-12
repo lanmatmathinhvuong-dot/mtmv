@@ -796,6 +796,130 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>
+   <section className="mt-10 rounded-3xl border border-yellow-300/20 bg-slate-950/60 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    BUỔI ĐỊNH HƯỚNG ĐẦU TIÊN
+  </p>
+
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Hiểu mình không phải để biết trước tương lai. Mà để{" "}
+    <span className="text-yellow-300">lựa chọn sáng rõ hơn ở hiện tại</span>.
+  </h2>
+
+  <div className="mt-5 max-w-5xl space-y-4 text-sm leading-7 text-slate-200">
+    <p>
+      Không phải mọi vấn đề đều cần thêm nỗ lực. Có những vấn đề cần một bản đồ
+      đúng hơn, một điểm bắt đầu rõ hơn và một cách tối ưu nguồn lực phù hợp hơn.
+    </p>
+
+    <p>
+      Buổi định hướng đầu tiên giúp bạn nhìn lại điều đang lặp lại trong cuộc
+      sống: sức khỏe, mối quan hệ, sự nghiệp, tài chính, con cái hay người đồng
+      hành. Từ những thông tin cơ bản như họ tên, ngày sinh, giờ sinh nếu nhớ và
+      điều bạn đang trăn trở, bạn bắt đầu có thêm một hệ quy chiếu để hiểu mình
+      đang vướng ở đâu và nên ưu tiên điều gì trước.
+    </p>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-yellow-300/10 p-5">
+    <h3 className="text-xl font-black text-yellow-300">
+      Nghệ thuật tối ưu nguồn lực
+    </h3>
+
+    <p className="mt-4 text-sm leading-7 text-slate-100">
+      Có những lúc bạn đã leo được một đoạn rất xa, rồi mới nhận ra: hình như
+      mình đang ở trên một cái cây không thật sự thuộc về mình.
+    </p>
+
+    <p className="mt-4 text-sm leading-7 text-slate-100">
+      Người vội vàng có thể buông tay tụt xuống làm lại từ đầu. Người sợ muộn có
+      thể cố với sang cành bên kia và ngã đau hơn. Nhưng người biết quan sát sẽ
+      tìm điểm tựa, hướng gió và nhịp chuyển phù hợp — để đổi hướng nhẹ hơn, ít
+      hao tổn hơn và vẫn tiếp tục đi về đích của mình.
+    </p>
+
+    <p className="mt-4 text-sm font-semibold leading-7 text-yellow-100">
+      Buổi định hướng đầu tiên không bắt bạn phủ nhận những gì đã đi qua. Nó giúp
+      bạn nhìn lại: mình đang ở đâu trên cái cây hiện tại, nguồn lực nào còn có
+      thể tận dụng và đâu là điểm chuyển hướng an toàn hơn.
+    </p>
+  </div>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Giá trị 1
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Nhìn lại điều đang lặp lại
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn bắt đầu nhận diện điều gì đang quay lại nhiều lần trong sức khỏe,
+        công việc, tài chính, quan hệ hoặc cách mình lựa chọn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Giá trị 2
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Xác định điểm cần ưu tiên
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Thay vì ôm quá nhiều câu hỏi cùng lúc, bạn biết đâu là điểm nên được
+        quan sát và rèn luyện trước tiên.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Giá trị 3
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Tối ưu nguồn lực đang có
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-200">
+        Bạn không cần phủ nhận toàn bộ chặng đường đã đi. Điều quan trọng là nhận
+        ra nguồn lực nào còn dùng được, điểm tựa nào có thể nâng đỡ và cách
+        chuyển hướng nào ít hao tổn hơn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Giá trị 4
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Giảm thử sai không cần thiết
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Khi có thêm bản đồ quy chiếu, bạn có thể lựa chọn công cụ, phương tiện
+        và hướng đi phù hợp hơn, thay vì tiếp tục mò mẫm trong mơ hồ.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
+        Giá trị 5
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
+        Đi bền hơn, không chỉ nhanh hơn
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Thành công không chỉ là đến đích sớm hơn, mà là khi đến nơi, bạn vẫn còn
+        đủ sức khỏe, sự sáng rõ và bình an để tận hưởng hành trình đó.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/70 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Hiểu mình không phải để biết trước tương lai. Mà là để chọn đường
+      đi sáng rõ hơn, ít hao tổn hơn và bền vững hơn.
+    </p>
+  </div>
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
