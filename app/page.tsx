@@ -920,6 +920,68 @@ setGhiChuDacBiet("");
     </p>
   </div>
 </section>
+<section className="mt-10 rounded-3xl border border-white/10 bg-slate-950/60 p-6 text-left">
+  <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+    CÂU HỎI THƯỜNG GẶP
+  </p>
+
+  <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
+    Trước khi để lại thông tin, bạn có thể cần{" "}
+    <span className="text-yellow-300">một vài sự rõ ràng</span>.
+  </h2>
+
+  <div className="mt-8 grid gap-5 md:grid-cols-2">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="text-lg font-black text-yellow-300">
+        Đây có phải bói toán không?
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Không. Mật Mã Tài Năng không dùng dữ liệu để phán định số phận. Đây là
+        một hệ quy chiếu kết hợp Kinh Dịch ứng dụng, các lớp dữ liệu từ ngày sinh – tên gọi và
+        quan sát hành vi để giúp bạn hiểu bản thân rõ hơn, nhận diện điểm mạnh,
+        điểm nghẽn và hướng rèn luyện phù hợp hơn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="text-lg font-black text-yellow-300">
+        Tôi cần chuẩn bị gì trước buổi định hướng?
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Bạn chỉ cần chuẩn bị họ tên, ngày sinh, giờ sinh nếu nhớ và một điều
+        đang thật sự trăn trở. Không cần phải kể toàn bộ câu chuyện ngay từ đầu.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="text-lg font-black text-yellow-300">
+        Tôi có phải kể hết chuyện riêng tư không?
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Không. Bạn chỉ chia sẻ trong mức độ mình thấy an toàn. Buổi đầu chỉ giúp
+        cô đọng vấn đề và xác định đúng điểm cần quan sát để tối ưu nguồn lực.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+      <h3 className="text-lg font-black text-yellow-300">
+        Sau buổi đầu tôi có bắt buộc đi sâu không?
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-300">
+        Không. Bạn có toàn quyền lựa chọn. Sau khi nhận gợi mở ban đầu, bạn có
+        thể dừng lại để chiêm nghiệm thêm hoặc chọn đi sâu hơn khi thật sự sẵn
+        sàng.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-yellow-300/10 p-5 text-center">
+    <p className="text-lg font-bold text-yellow-100">
+      Hành trình này chỉ có ý nghĩa khi bạn tự thấy phù hợp và hoàn toàn tự
+      nguyện bước tiếp.
+    </p>
+  </div>
+</section>
         <section
           id="dang-ky"
           className="mt-16 w-full max-w-2xl rounded-3xl border border-white/15 bg-white/10 p-8 text-left"
