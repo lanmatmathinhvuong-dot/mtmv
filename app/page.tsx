@@ -56,9 +56,7 @@ setGhiChuDacBiet("");
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg font-medium text-slate-200 md:text-xl">
-          Nơi giúp học viên khai mở tư duy, thiết kế lộ trình phát triển bản thân
-          và từng bước xây dựng cuộc sống thịnh vượng bằng tri thức, hành động
-          và sự chuyển hóa từ bên trong.
+          Học viện Mật Mã Thịnh Vượng là hệ sinh thái giúp con người hiểu mình, rèn mình và kiến tạo cuộc sống thịnh vượng từ bên trong. Mật Mã Tài Năng là cánh cửa đầu tiên dẫn vào hành trình ấy.
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -180,32 +178,34 @@ setGhiChuDacBiet("");
   </p>
 
   <h2 className="mt-3 text-3xl font-black text-white">
-    Không phải bạn chưa cố gắng. Mà là bạn đang cố gắng đúng sức, sai hướng.
+    Không phải bạn chưa cố gắng. Mà là bạn đang cố gắng hết sức, sai hướng.
   </h2>
 
   <p className="mt-4 text-sm leading-6 text-slate-200">
-    Bạn đã đọc sách, đi học, thay đổi liên tục — nhưng con vẫn xa cách, cảm xúc vẫn bùng nổ, sự nghiệp vẫn giậm chân, tiền vẫn trôi qua kẽ tay, mối quan hệ vẫn đứt gãy rồi lành rồi lại đứt. Một vấn đề lặp lại quá lâu không phải là xui xẻo. Đó có thể là dấu hiệu bạn đang vận hành theo một cấu trúc cũ — và càng cố gắng trong vô thức, bạn càng khắc sâu vết cũ.
+    Bạn đã đọc sách, đi học, thiền định, thay đổi bản thân và thử nhiều cách để sống tốt hơn. Nhưng khi trở về đời sống thật, các mối quan hệ vẫn chưa thật sự được cải thiện, công việc vẫn giậm chân, tiền bạc vẫn trôi đi, còn bên trong bạn vẫn có những lúc cô đơn, kiệt sức và chỉ muốn thoát ra mà không biết bằng cách nào.
+
+Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó có thể là tín hiệu cho thấy bên trong bạn còn một điều chưa được nhìn rõ. Khi chưa thấy đúng gốc, càng cố xoay xở bên ngoài, bạn càng dễ quay lại đúng vấn đề cũ.
   </p>
 
   <div className="mt-6 grid gap-4 md:grid-cols-3">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <h3 className="font-bold text-yellow-300">Hiện tượng bên ngoài</h3>
       <p className="mt-2 text-sm leading-6 text-slate-300">
-        Con không nghe lời. Vợ chồng sống chung nhưng như người lạ. Đi làm giữa rất nhiều người mà vẫn thấy cô đơn, không ai thật sự hiểu mình. Bạn kiệt sức vì cố gắng, nhưng những nỗ lực ấy dường như không được nhìn thấy.
+       Con không còn muốn nghe lời, dễ chống đối hoặc thu mình trong phòng. Vợ chồng sống cạnh nhau nhưng lạnh như hai người chung phòng trọ. Công việc làm mãi không thông, đầu tư đâu mất đó, càng cố càng hao tổn. Bạn kiệt sức vì gồng gánh, nhưng những nỗ lực ấy giống như muối bỏ bể, không được thấu hiểu, ghi nhận hay công nhận đúng mức.
       </p>
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <h3 className="font-bold text-yellow-300">Cấu trúc bên trong</h3>
       <p className="mt-2 text-sm leading-6 text-slate-300">
-        Đó không phải vì bạn kém cỏi. Đó có thể là điểm mù bạn chưa từng thấy, niềm tin sai bạn chưa từng nghi ngờ, và một nhịp phát triển bị ép sai thời điểm — âm thầm phá mọi nỗ lực của bạn từ bên trong.
+       Đó không phải vì bạn kém cỏi. Hoa trái nào cũng bắt đầu từ gốc rễ. Khi chỉ mải xử lý những biểu hiện bên ngoài, bạn có thể bỏ quên phần gốc đang âm thầm chi phối cách mình phản ứng, lựa chọn, giữ tiền, yêu thương và ra quyết định. Chính cấu trúc ngầm ấy khiến nhiều nỗ lực cứ tan đi trước khi kịp thành quả.
       </p>
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <h3 className="font-bold text-yellow-300">Hướng rèn luyện</h3>
       <p className="mt-2 text-sm leading-6 text-slate-300">
-        Bạn không cần cố gắng nhiều hơn. Bạn cần nhìn đúng lần đầu tiên. Mật Mã Tài Năng giúp soi rõ điều gì đang thật sự cản bạn — và cách hành động phù hợp hơn để từng bước thoát khỏi mắc kẹt.
+        Bạn không cần tiếp tục nỗ lực trong mơ hồ. Trí tuệ bắt đầu từ lúc bạn dừng lại đủ sâu để nhìn đúng bản đồ vận hành của chính mình. Mật Mã Tài Năng giúp bạn gọi tên điểm mù, nhận diện nguồn lực bị bỏ quên và chọn một hướng rèn luyện phù hợp hơn — nhẹ hơn, rõ hơn và ít hao tổn hơn.
       </p>
     </div>
   </div>
