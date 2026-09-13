@@ -215,7 +215,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
       Còn bao nhiêu năm nữa bạn định tiếp tục chịu đựng vòng lặp này?
     </h3>
     <p className="mt-3 text-sm leading-6 text-slate-100">
-      Mỗi ngày trì hoãn là bạn đang lấy sức khỏe, tài sản và hạnh phúc gia đình ra trả giá cho điều bạn đang đau nhưng chưa thật sự nhìn thấu. Đã đến lúc mạnh dạn mở cửa để lựa chọn tốt hơn cho hiện tại.
+      Mỗi ngày trì hoãn là bạn đang lấy sức khỏe, tài sản và hạnh phúc gia đình ra để trả giá cho điều bạn đang đau. Nhưng đau chưa chắc đã thấu, và chưa thấu thì rất dễ quay lại đúng vấn đề cũ. Đã đến lúc mạnh dạn mở cửa để nhìn sâu hơn và lựa chọn tốt hơn cho hiện tại.
     </p>
   </div>
 </section>
