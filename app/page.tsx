@@ -701,8 +701,8 @@ setGhiChuDacBiet("");
     mô tả về mình.
   </p>
 
-  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-6">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
         Cam kết 1
       </p>
@@ -715,7 +715,7 @@ setGhiChuDacBiet("");
       </p>
     </div>
 
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+   <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
         Cam kết 2
       </p>
@@ -729,7 +729,7 @@ setGhiChuDacBiet("");
       </p>
     </div>
 
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
         Cam kết 3
       </p>
@@ -743,7 +743,7 @@ setGhiChuDacBiet("");
       </p>
     </div>
 
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-3">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
         Cam kết 4
       </p>
@@ -756,7 +756,7 @@ setGhiChuDacBiet("");
       </p>
     </div>
 
-    <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5 xl:col-span-2">
+    <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5 xl:col-span-3">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
         Cam kết 5
       </p>
