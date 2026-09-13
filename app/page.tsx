@@ -191,7 +191,7 @@ setGhiChuDacBiet("");
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <h3 className="font-bold text-yellow-300">Hiện tượng bên ngoài</h3>
       <p className="mt-2 text-sm leading-6 text-slate-300">
-        Con ngày càng khó hiểu. Bạn ngày càng dễ kiệt sức. Người bên cạnh ngày càng xa. Và điều đáng sợ nhất: bạn càng cố, mọi thứ càng siết chặt hơn.
+        Con không nghe lời. Vợ chồng sống chung nhưng như người lạ. Đi làm giữa rất nhiều người mà vẫn thấy cô đơn, không ai thật sự hiểu mình. Bạn kiệt sức vì cố gắng, nhưng những nỗ lực ấy dường như không được nhìn thấy.
       </p>
     </div>
 
@@ -460,10 +460,10 @@ setGhiChuDacBiet("");
         Mảnh ghép 2
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        81 bộ số
+        Bộ số liên quan đến bạn
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Gợi mở cách các con số kết hợp thành một kiểu vận hành riêng.
+        Từ hệ 81 Combination Numbers, mỗi người sẽ có những bộ số liên quan riêng, giúp gợi mở một phần cách bản thân đang vận hành.
       </p>
     </div>
 
@@ -484,11 +484,10 @@ setGhiChuDacBiet("");
         Mảnh ghép 4
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Tên gọi
+        Tên gọi — năng lượng
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Gợi mở năng lượng tên và cách tên có thể đồng hành với định hướng phát
-        triển.
+        Tên gọi không chỉ là danh xưng, mà là trường năng lượng được đánh thức mỗi ngày. Gợi mở để quan sát tên ấy đang nâng đỡ hay vô tình tạo lực cản cho bản thân, con cái hoặc thương hiệu.
       </p>
     </div>
 
@@ -500,8 +499,7 @@ setGhiChuDacBiet("");
         Điều bạn đang trăn trở
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-200">
-        Con cái, bạn đời, sự nghiệp, tiền bạc, đối tác hay chính bản thân bạn —
-        mỗi trăn trở sẽ mở ra một hướng soi khác nhau.
+        Con cái, bạn đời, sự nghiệp, tài chính hay chính bản thân bạn — mỗi trăn trở không phải là bế tắc, mà là tín hiệu để mở ra một hướng soi chiếu và gỡ rối phù hợp hơn.
       </p>
     </div>
   </div>
