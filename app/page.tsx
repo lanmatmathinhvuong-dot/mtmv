@@ -212,10 +212,10 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
   <div className="mt-6 rounded-2xl border border-yellow-300/30 bg-yellow-300/10 p-5">
     <h3 className="text-xl font-black text-yellow-300">
-      Còn bao nhiêu năm nữa bạn định lặp lại vòng lặp này?
+      Còn bao nhiêu năm nữa bạn định tiếp tục chịu đựng vòng lặp này?
     </h3>
     <p className="mt-3 text-sm leading-6 text-slate-100">
-      Mỗi ngày trì hoãn là một ngày thanh xuân, sức khỏe và các mối quan hệ tiếp tục trả giá cho một cấu trúc bạn chưa từng sửa. Đăng ký ngay — để mạnh dạn bước ra khỏi vòng lặp cố gắng trong vô thức.
+      Mỗi ngày trì hoãn là bạn đang lấy sức khỏe, tài sản và hạnh phúc gia đình ra trả giá cho điều bạn đang đau nhưng chưa thật sự nhìn thấu. Đã đến lúc mạnh dạn mở cửa để lựa chọn tốt hơn cho hiện tại.
     </p>
   </div>
 </section>
