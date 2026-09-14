@@ -219,7 +219,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
     </p>
   </div>
 </section>
-    <section className="mt-16 rounded-3xl border border-yellow-300/20 bg-white/5 p-6 text-left">
+  <section className="mt-16 rounded-3xl border border-white/10 bg-slate-900/70 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
     MẬT MÃ TÀI NĂNG GIÚP BẠN SOI ĐIỀU GÌ?
   </p>
@@ -234,92 +234,94 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
       Không dùng để phán xét. Không dùng một con số để kết luận một con người.
       Cũng không đóng khung bất kỳ ai vào vài dòng mô tả.
     </p>
-
     <p>
       Mật Mã Tài Năng là một hệ quy chiếu với nhiều lớp dữ liệu, giúp bạn quan
       sát sâu hơn cấu trúc bên trong và cách một con người đang thực sự vận hành
-      — từ ngày sinh, tên gọi, hành vi thực tế, môi trường sống đến những mô
-      thức đang lặp đi lặp lại.
+      — từ ngày sinh, tên gọi, hành vi thực tế, môi trường sống đến những mô thức
+      đang lặp đi lặp lại.
     </p>
-
-    <p className="font-semibold text-yellow-100">
+    <p className="font-bold text-yellow-100">
       Từ đó, phương pháp này giúp soi rõ 5 lớp dữ liệu:
     </p>
   </div>
 
-  <div className="mt-6 h-1 w-16 rounded-full bg-yellow-300"></div>
-
-  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
-        1
-      </div>
-      <h3 className="mt-4 text-xl font-black text-white">Năng lực lõi</h3>
+  <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-6">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
+      <p className="text-xs font-bold uppercase tracking-[0.22em] text-yellow-300">
+        LỚP 01
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">Năng lực lõi</h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Bạn mạnh ở đâu một cách tự nhiên — và điều gì nên được rèn thành tài
-        sản đi cùng cả đời, thay vì mãi chạy theo thế mạnh của người khác.
+        Bạn mạnh ở đâu một cách tự nhiên — và điều gì nên được rèn thành tài sản
+        đi cùng cả đời, thay vì mãi chạy theo thế mạnh của người khác.
       </p>
     </div>
 
-    <div className="rounded-2xl border border-yellow-300/40 bg-slate-900/70 p-5 shadow-lg shadow-yellow-300/5">
-      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
-        2
-      </div>
-      <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Điểm chạm sâu nhất
+    <div className="rounded-2xl border border-yellow-300/30 bg-slate-900/60 p-5 xl:col-span-2">
+      <p className="text-xs font-bold uppercase tracking-[0.22em] text-yellow-300">
+        LỚP 02 · ĐIỂM CHẠM SÂU NHẤT
       </p>
-      <h3 className="mt-2 text-xl font-black text-white">Điểm mù</h3>
+      <h3 className="mt-3 text-xl font-black text-white">Điểm mù</h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Điều gì đang âm thầm khiến bạn — hoặc con bạn — lặp lại cùng một sai
-        lầm, mà chính bạn không hề hay biết.
+        Điều gì đang âm thầm khiến bạn — hoặc con bạn — lặp lại cùng một sai lầm,
+        mà chính bản thân nhiều khi không hề hay biết.
       </p>
     </div>
 
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
-        3
-      </div>
-      <h3 className="mt-4 text-xl font-black text-white">
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
+      <p className="text-xs font-bold uppercase tracking-[0.22em] text-yellow-300">
+        LỚP 03
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">
         Nhịp vận hành cá nhân
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Khi nào nên tiến, khi nào nên chậm lại, và điều gì tuyệt đối không nên
-        ép đi sai thời điểm — vì ép sai nhịp là gốc của mọi kiệt sức.
+        Khi nào nên tiến, khi nào nên chậm lại, và điều gì tuyệt đối không nên ép
+        đi sai thời điểm — vì ép sai nhịp là gốc của mọi kiệt sức.
       </p>
     </div>
 
-    <div className="rounded-2xl border border-yellow-300/50 bg-yellow-300/10 p-5 md:col-span-2">
-      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
-        4
-      </div>
-      <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Lớp dữ liệu quan trọng
+    <div className="rounded-2xl border border-yellow-300/50 bg-yellow-300/10 p-5 md:col-span-2 xl:col-span-3">
+      <p className="text-xs font-bold uppercase tracking-[0.22em] text-yellow-300">
+        LỚP 04 · DỮ LIỆU QUAN TRỌNG
       </p>
-      <h3 className="mt-2 text-xl font-black text-white">
+      <h3 className="mt-3 text-xl font-black text-white">
         Mô thức quan hệ và lựa chọn đối tác
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-200">
-        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia
-        đình, công việc, tình yêu. Vì suy cho cùng, đời người là một chuỗi những
-        lần chọn người: chọn bạn đời, chọn đối tác, chọn cộng sự, chọn người
-        đồng hành. Lớp dữ liệu này giúp bạn nhận diện ai thực sự bổ trợ được
-        mình — và ai chỉ đang kéo bạn lặp lại tổn thương cũ.
-      </p>
-      <p className="mt-4 rounded-xl border border-yellow-300/30 bg-slate-950/40 p-4 text-sm font-semibold leading-6 text-yellow-100">
-        Chọn sai người, bạn không chỉ mất tiền — bạn mất nhịp sống, mất năng
-        lượng và đôi khi mất nhiều năm để sửa lại.
+        Vì sao cùng một tổn thương, cùng một xung đột cứ quay lại — trong gia đình,
+        công việc, tình yêu. Vì suy cho cùng, đời người là một chuỗi những lần
+        chọn người: chọn bạn đời, chọn đối tác, chọn cộng sự, chọn người đồng hành.
+        Lớp dữ liệu này giúp bạn nhận diện ai thực sự bổ trợ được mình — và ai chỉ
+        đang kéo bạn lặp lại tổn thương cũ. Nhận diện đúng bản chất người đồng hành
+        chính là một chiếc khiên vững chắc, giúp bạn bảo toàn tài sản, năng lượng
+        và sự bình an của mình.
       </p>
     </div>
 
-    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
-      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-300 font-black text-slate-950">
-        5
-      </div>
-      <h3 className="mt-4 text-xl font-black text-white">Hướng rèn luyện</h3>
+    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 md:col-span-2 xl:col-span-3">
+      <p className="text-xs font-bold uppercase tracking-[0.22em] text-yellow-300">
+        LỚP 05
+      </p>
+      <h3 className="mt-3 text-xl font-black text-white">Lộ trình chuyển hóa</h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Không chỉ để biết “mình là ai”, mà để biết nên rèn điều gì trước tiên —
-        từng bước sống sáng rõ, bình an và thịnh vượng hơn, thay vì cố gắng
-        trong mù mờ như trước.
+        Thấu hiểu mình không phải để phó mặc, mà để hành động có chủ đích, lựa chọn
+        đúng công cụ, đúng phương tiện và từng bước kiến tạo một lộ trình sáng rõ hơn
+        — thay vì mãi loay hoay, mỏi mệt trong bế tắc. Đây là cách rèn ít hao tổn hơn:
+        không chạy theo mọi lời khuyên, mà quay về đúng điểm cần chuyển hóa trước tiên.
+      </p>
+      <p className="mt-4 text-sm font-semibold leading-6 text-yellow-100">
+        Đừng cố thay đổi tất cả cùng lúc. Khi chạm đúng một điểm mấu chốt và rèn
+        đúng cách, toàn bộ hệ thống vận hành của bạn sẽ bắt đầu thông suốt hơn.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5 text-center md:col-span-2 xl:col-span-6">
+      <p className="text-sm font-bold leading-7 text-yellow-100">
+        Chọn sai người, bạn không chỉ mất tiền — bạn mất nhịp sống, mất năng lượng
+        và đôi khi mất nhiều năm để sửa lại.
+        <br />
+        Chọn sai hướng, càng đi nhanh càng xa đích.
       </p>
     </div>
   </div>
@@ -337,7 +339,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
   <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
     Có những thời điểm cuộc sống gửi tín hiệu rất rõ: bạn đã cố gắng nhiều nhưng
     vẫn thấy mơ hồ, một vấn đề cứ quay lại nhiều lần, hoặc bạn đang đứng trước
-    một lựa chọn quan trọng mà không muốn tiếp tục đi mò. Đó có thể là lúc bạn
+    một lựa chọn quan trọng mà không muốn tiếp tục mò mẫm trong vô định. Đó có thể là lúc bạn
     cần dừng lại, quan sát sâu hơn và chọn một điểm bắt đầu phù hợp hơn.
   </p>
 
@@ -422,8 +424,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
   <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/70 p-5 text-center">
     <p className="text-lg font-bold text-yellow-100">
-      Bạn không cần chờ đến khi mọi thứ rối tung mới bắt đầu. Đôi khi chỉ cần
-      một dấu hiệu lặp lại cũng đủ để bạn dừng lại và nhìn sâu hơn.
+      Một dấu hiệu lặp lại không chỉ là chuyện nhỏ thoáng qua. Đó có thể là lời nhắc bạn cần dừng lại, nhìn sâu hơn, và chọn một điểm bắt đầu đúng hơn.
     </p>
   </div>
 </section>
@@ -554,10 +555,10 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
         Bước 3: Chọn không gian phù hợp
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Chọn hình thức phù hợp
+        Thống nhất phương thức trao đổi
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-200">
-        Bạn thống nhất hình thức trao đổi online hoặc trực tiếp, tùy điều kiện và mức độ sẵn sàng của mình.
+        Trực tuyến hoặc trực tiếp, tùy theo điều kiện và mức độ sẵn sàng của riêng bạn.
       </p>
     </div>
 
@@ -566,7 +567,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
         Bước 4: Hé mở bức tranh tổng quan
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Bắt đầu gợi mở
+        Gợi mở ban đầu
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
         Bạn nhận được những chỉ dẫn ban đầu để nhìn rõ hơn điều đang cần hiểu, trước khi quyết định có bước vào hành trình khai vấn và chuyển hóa sâu hơn hay không.
@@ -600,7 +601,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
   <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Nhóm 1
+        NHÓM 1 → CHÂN DUNG 01
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
         Cha mẹ muốn hiểu con
@@ -613,7 +614,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Nhóm 2
+        NHÓM 2 → CHÂN DUNG 02
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
         Người muốn hiểu chính mình
@@ -626,7 +627,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Nhóm 3
+        NHÓM 3 → CHÂN DUNG 03
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
         Người đang chọn hướng đi
@@ -639,7 +640,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Nhóm 4
+        NHÓM 4 → CHÂN DUNG 04
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
         Người muốn cải thiện mối quan hệ
@@ -652,7 +653,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
     <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Nhóm 5
+        NHÓM 5 → CHÂN DUNG 05
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
         Doanh nhân cần chọn người đồng hành
@@ -665,7 +666,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Nhóm 6
+        NHÓM 6 → CHÂN DUNG 06
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
         Người có thành tựu nhưng muốn sống sâu hơn
@@ -679,92 +680,82 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
 
   <div className="mt-8 rounded-2xl border border-yellow-300/30 bg-slate-950/50 p-5 text-center">
     <p className="text-lg font-bold text-yellow-100">
-      Bạn không cần thuộc một nhóm nào cố định. Chỉ cần có một điều thật sự muốn
-      hiểu, hành trình đã có thể bắt đầu.
+      Bạn không cần phải thuộc về một khuôn mẫu cố định nào. Chỉ cần bên trong bạn có một khao khát thấu hiểu chân thật, hành trình chuyển hóa đã có thể bắt đầu.
     </p>
   </div>
 </section>    
      <section className="mt-10 rounded-3xl border border-yellow-300/20 bg-slate-950/60 p-6 text-left">
   <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
-    HÀNH TRÌNH THẤU HIỂU
+   TÔN TRỌNG • THẤU CẢM • KHAI MỞ
   </p>
 
   <h2 className="mt-3 max-w-4xl text-3xl font-black leading-tight text-white md:text-4xl">
-    Không phán xét. Không gieo sợ hãi. Không dùng bản đồ để{" "}
-    <span className="text-yellow-300">đóng khung một con người</span>.
+    Một lăng kính để nhìn sâu hơn, lựa chọn sáng suốt hơn và {" "}
+    <span className="text-yellow-300">rèn luyện vững hơn</span>
   </h2>
 
   <p className="mt-5 max-w-5xl text-sm leading-7 text-slate-200">
-    Mật Mã Tài Năng được dùng như một hệ quy chiếu để quan sát, gợi mở và rèn
-    luyện. Chúng tôi không dùng dữ liệu cá nhân để kết luận bạn tốt hay xấu,
-    đúng hay sai, thành công hay thất bại. Mỗi con người luôn lớn hơn mọi bản
-    mô tả về mình.
+    Mật Mã Tài Năng là hệ quy chiếu giúp bạn quan sát và rèn luyện bản thân. Chúng tôi không dùng dữ liệu để dán nhãn đúng — sai, tốt — xấu hay thành — bại, vì mỗi con người luôn vĩ đại hơn mọi bản mô tả về mình.
   </p>
 
   <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-6">
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Cam kết 1
+        CAM KẾT 1: 
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Không phán xét con người
+        Tôn trọng & Không phán xét
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Không dùng ngày sinh, tên gọi hay bất kỳ dữ liệu nào để dán nhãn, quy
-        chụp hoặc kết luận thay cuộc đời của một người.
+        Không dùng ngày sinh, tên gọi hay bất kỳ chỉ số nào để quy chụp, dán nhãn hay định đoạt thay cho cuộc đời bạn. Mọi dữ liệu chỉ phục vụ cho sự thấu hiểu.
       </p>
     </div>
 
    <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Cam kết 2
+        CAM KẾT 2:
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Không gieo sợ hãi
+        Đồng hành trong bình an
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Chúng tôi tiếp cận bằng Kinh Dịch ứng dụng và nhiều lớp dữ liệu để giúp
-        bạn thấu hiểu rõ hơn trước khi ra quyết định. Khi tâm trí bình an, lựa
-        chọn của bạn cũng sáng rõ và chính xác hơn.
+        Nói không với việc thêu dệt vận hạn hay thao túng tâm lý bằng sự lo âu. Mọi góc nhìn từ Kinh Dịch ứng dụng đều hướng tới sự tĩnh lặng, giúp bạn nhìn rõ giải pháp để hành động sáng rõ.
       </p>
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-2">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Cam kết 3
+        CAM KẾT 3:
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Không bói toán hóa dữ liệu
+        Ứng dụng thực tiễn & Có hệ quy chiếu
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Bản đồ chỉ là điểm bắt đầu để quan sát. Nó giúp bạn nhìn rõ hơn điểm
-        xuất phát, nguồn lực hỗ trợ, điểm nghẽn cần tháo gỡ và hướng đi phù hợp
-        hơn cho mình.
+        Bản đồ chỉ là điểm tựa ban đầu để quan sát. Chúng tôi chuyển hóa triết lý cổ xưa thành phương pháp rèn luyện thực tế, giúp bạn nhận diện điểm nghẽn và phát huy tối đa nguồn lực sẵn có.
       </p>
     </div>
 
     <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-5 xl:col-span-3">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Cam kết 4
+        CAM KẾT 4:
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Tôn trọng riêng tư
+        Bảo mật & Tôn trọng riêng tư 
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Bạn không cần kể toàn bộ câu chuyện đời mình ngay từ đầu. Mọi chia sẻ
-        đều được tiếp nhận trong sự tôn trọng và đúng mục đích soi mở.
+        Bạn hoàn toàn chủ động trong việc chia sẻ. Mọi câu chuyện và thông tin cá nhân đều được giữ kín tuyệt đối, chỉ tiếp nhận trong sự tôn trọng và đúng mục đích khai mở.
       </p>
     </div>
 
     <div className="rounded-2xl border border-yellow-300/40 bg-yellow-300/10 p-5 xl:col-span-3">
       <p className="text-xs font-bold uppercase tracking-[0.18em] text-yellow-300">
-        Cam kết 5
+        CAM KẾT 5: 
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Quyền tự nguyện lựa chọn
+        Trao quyền & Tự nguyện lựa chọn
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-200">
-        Chúng tôi không ép bạn phải tin, phải học hay phải đi tiếp. Hành trình này chỉ có ý nghĩa khi bạn tự kiểm chứng, tự thấy phù hợp và tự nguyện lựa chọn bước tiếp.
+        Chúng tôi không ép buộc niềm tin hay thúc ép bạn phải theo bất kỳ lộ trình nào. Hành trình này chỉ thực sự có giá trị khi bạn tự mình kiểm chứng, thấu hiểu và tự nguyện bước tiếp.
       </p>
     </div>
   </div>
