@@ -604,11 +604,10 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
         NHÓM 1 → CHÂN DUNG 01
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Cha mẹ muốn hiểu con
+        Cha mẹ muốn đồng hành cùng con
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
-        Bạn muốn nhận diện tiềm năng, khí chất và cách rèn phù hợp hơn cho con,
-        thay vì ép con đi theo một khuôn mẫu có sẵn.
+        Bạn muốn nhận diện thiên hướng và khí chất bẩm sinh của con để có phương pháp giáo dục thuận tự nhiên hơn, thay vì áp đặt con vào một khuôn mẫu định sẵn.
       </p>
     </div>
 
@@ -728,7 +727,7 @@ Một vấn đề cứ quay lại nhiều lần không hẳn là xui xẻo. Nó 
         CAM KẾT 3:
       </p>
       <h3 className="mt-3 text-xl font-black text-white">
-        Ứng dụng thực tiễn & Có hệ quy chiếu
+        Ứng dụng thực tiễn & có hệ quy chiếu
       </h3>
       <p className="mt-3 text-sm leading-6 text-slate-300">
         Bản đồ chỉ là điểm tựa ban đầu để quan sát. Chúng tôi chuyển hóa triết lý cổ xưa thành phương pháp rèn luyện thực tế, giúp bạn nhận diện điểm nghẽn và phát huy tối đa nguồn lực sẵn có.
